@@ -2,7 +2,7 @@
 
 The **SKYNET‑800** project is at the stage of **active automation**.  
 We are not writing "temporary code" — we are building the foundation for a **future powerful analytical system** that must work with huge volumes of data in real time.
-
+We are a team — and a single developer — who decided to build Skynet from scratch. Not the one from the movie, but a real tool for time analysis. We are not joking, we are not mystifying. We are building a system that works.
 ---
 
 ### 🔄 Release Cycle
