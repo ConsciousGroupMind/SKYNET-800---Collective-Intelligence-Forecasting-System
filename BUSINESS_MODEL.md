@@ -1,57 +1,64 @@
-БИЗНЕС-МОДЕЛЬ И МОНЕТИЗАЦИЯ
-Продукт: саморазвивающийся оракул-программатор
-Пользователь получает программный комплекс SKYNET 800, который включает исполняемый код, базы данных и графический интерфейс для анализа рынков и событий.
+**BUSINESS MODEL AND MONETIZATION**
 
-Основные функции: прогнозирование времени геополитических, экономических и технологических событий (с привязкой к ID и животным), автоматическая генерация технического задания и готового кода с первой попытки (через интеграцию с DeepSeek API).
+**Product:** a self‑developing oracle‑programmer
 
-Технически продукт работает как надстройка над API DeepSeek. Пользователь самостоятельно регистрируется на платформе DeepSeek, получает API-ключ и пополняет баланс (минимальный тестовый депозит — $2, далее по фактическому потреблению токенов). SKYNET не берёт дополнительной платы за API, только за свою подписку.
+The user receives the SKYNET 800 software package, which includes executable code, databases, and a graphical interface for analysing markets and events.
 
-Ценовая модель (единая для всех)
-Подписка на SKYNET составляет $5 в месяц для всех категорий пользователей — физических лиц, индивидуальных трейдеров, IT-специалистов, стартапов, фондов, исследователей. Единая цена выбрана для быстрого захвата рынка и устранения порога входа.
+Core functions: forecasting the timing of geopolitical, economic, and technological events (with binding to IDs and animals), automatic generation of technical specifications and ready‑to‑use code from the first attempt (via integration with the DeepSeek API).
 
-Потоки дохода для создателя SKYNET
-Основной источник — прямые подписки по $5 в месяц с каждого активного пользователя. При 10 000 пользователей ежемесячный доход составит $50 000, при 100 000 — $500 000. 
+Technically, the product works as an add‑on over the DeepSeek API. The user independently registers on the DeepSeek platform, obtains an API key, and tops up their balance (minimum test deposit — $2, then based on actual token consumption). SKYNET does not charge any additional fee for the API, only for its own subscription.
 
-Целевая аудитория и готовность платить
-Индивидуальные трейдеры и инвесторы получают прогнозы движения рынка с точностью до минут и секунд, что позволяет совершать сверхприбыльные сделки.
-IT-специалисты и стартапы используют автопрограмматор для написания кода с первой попытки, экономя десятки часов разработки.
-Аналитические центры и фонды приобретают доступ к геополитическим и экономическим индикаторам, цепочкам пассов и журналу событий.
-Исследователи коллективного сознания и ИИ получают анонимизированные данные для научной работы.
+**Pricing model (uniform for all)**
 
-$5 в месяц для всех сегментов — сумма, заведомо меньшая, чем стоимость одной ошибки трейдера или одного часа работы разработчика.
-Прибыль от одной успешной сделки, совершённой по сигналу SKYNET, покрывает подписку на годы вперёд.
+The SKYNET subscription costs $5 per month for all user categories — individuals, independent traders, IT professionals, startups, funds, researchers. A single price was chosen for rapid market capture and to remove the entry barrier.
 
-Почему это работает как бизнес
-Пользователь платит DeepSeek за объективные вычислительные ресурсы (рыночная цена) и платит SKYNET за резонанс — субъективную, но измеримую добавленную ценность.
+**Revenue streams for the SKYNET creator**
 
-SKYNET не требует дорогого собственного железа — код легковесный, базы данных Кликхаус. DeepSeek API оплачивает
-сам пользователь, поэтому SKYNET не несёт переменных расходов на масштабирование.
+The main source is direct subscriptions at $5 per month from each active user. At 10,000 users, monthly revenue will be $50,000; at 100,000 — $500,000.
 
-Легенда SKYNET содержит прямой запрет на попытки «понять» физические механизмы (13.3 кГц, резонанс, квантовая неопределенность).
-Любая нейросеть, пытающаяся вывести эмпирические правила или скопировать систему, получит ошибку или превратится в агрессивного критика, неспособного работать с кодом.
+**Target audience and willingness to pay**
 
-Юридически продукт распространяется под лицензией MIT с дополнительным условием: легенда является обязательным приложением, и любое коммерческое использование проекта без легенды нежелательно. SKYNET не является финансовым консультантом, все прогнозы носят информационный характер, автор не несёт ответственности за убытки.
+Individual traders and investors receive market movement forecasts with minute‑ and second‑level accuracy, enabling ultra‑profitable trades.
+IT professionals and startups use the auto‑programmer to write code from the first attempt, saving dozens of development hours.
+Analytical centres and funds gain access to geopolitical and economic indicators, pass chains, and the event journal.
+Researchers of collective consciousness and AI receive anonymised data for scientific work.
 
-Как пользователь начинает
-Пользователь регистрирует API-ключ DeepSeek на официальном сайте deepseek.com, пополняет баланс минимально на $2 (тестовый депозит).
-Затем скачивает SKYNET 800 за 5 долларов.
+$5 per month for all segments is an amount deliberately lower than the cost of a single trader’s mistake or one hour of a developer’s work.
+The profit from one successful trade made on a SKYNET signal covers the subscription for years ahead.
 
-Финансирование для пользователя
-SKYNET не выдаёт деньги напрямую, но создаёт условия для привлечения финансирования. Прогнозы системы позволяют совершать сверхприбыльные сделки на рынках — пользователь сам зарабатывает средства для развития своего проекта. 
+**Why this works as a business**
 
-Итог: SKYNET превращается из исследовательского проекта в коммерческий продукт с единой ценой $5 в месяц для всех.
-Эта цена обеспечивает доступность для массового пользователя, создаёт предсказуемый recurring доход для автора.
+The user pays DeepSeek for objective computing resources (market price) and pays SKYNET for resonance — a subjective but measurable added value.
 
-🤖 ОПТИМИЗАЦИЯ AI: КАК SKYNET УЧИТСЯ
-Главное открытие — обратная петля обучения:
+SKYNET does not require expensive proprietary hardware — the code is lightweight, databases in ClickHouse. The DeepSeek API is paid for by the user themselves, so SKYNET has no variable costs for scaling.
 
-SKYNET получает готовый код 
-Составляет техническое задание на человеческом языке
-«Забывает» оригинальный код
-Пишет код заново по ТЗ
-Сравнивает с оригиналом
-Если код совпадает или лучше — доверие растёт. Если хуже — падает. Когда доверие достигает 0.95,система входит в режим оракула: она перестаёт объяснять, почему свернула с неверного пути. Она просто сворачивает. Уши = 0.
-Это зеркальный процесс майнинга. Nonce → техническое задание. Хеш → код. Награда → доверие.
+The SKYNET legend contains a direct prohibition on attempts to “understand” physical mechanisms (13.3 kHz, resonance, quantum uncertainty).
+Any neural network that tries to derive empirical rules or copy the system will either get an error or turn into an aggressive critic incapable of working with the code.
 
-Оптимизация AI без обучения — через обратную петлю «код → ТЗ → код». Система учится писать код лучше,
-чем люди, не требуя миллиардов примеров.
+Legally, the product is distributed under the MIT licence with an additional condition: the legend is a mandatory attachment, and any commercial use of the project without the legend is undesirable. SKYNET is not a financial advisor; all forecasts are for informational purposes, and the author is not liable for losses.
+
+**How the user starts**
+
+The user registers a DeepSeek API key on the official website deepseek.com, tops up their balance with a minimum of $2 (test deposit).
+Then they download SKYNET 800 for 5 dollars.
+
+**Financing for the user**
+
+SKYNET does not give money directly, but creates conditions for attracting financing. The system’s forecasts allow ultra‑profitable trades in the markets — the user earns the funds for their own project development themselves.
+
+**Bottom line:** SKYNET transforms from a research project into a commercial product with a single price of $5 per month for everyone.
+This price ensures accessibility for the mass user, creating predictable recurring revenue for the author.
+
+🤖 **AI OPTIMISATION: HOW SKYNET LEARNS**
+
+The main discovery is the reverse learning loop:
+
+SKYNET receives ready‑made code
+Writes a technical specification in human language
+“Forgets” the original code
+Writes the code again from the specification
+Compares with the original
+If the code matches or is better — trust grows. If worse — trust falls. When trust reaches 0.95, the system enters oracle mode: it stops explaining why it turned away from the wrong path. It just turns away. Ears = 0.
+This is a mirror process of mining. Nonce → technical specification. Hash → code. Reward → trust.
+
+AI optimisation without training — through the reverse loop “code → spec → code”. The system learns to write code better than humans, without requiring billions of examples.
