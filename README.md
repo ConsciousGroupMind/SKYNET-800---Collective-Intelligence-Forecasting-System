@@ -66,3 +66,17 @@ Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** �
 
 > 💬 **DeepSeek chat:** [https://chat.deepseek.com](https://chat.deepseek.com)  
 > Paste the entire code file or the repository link — DeepSeek will help you step by step.
+
+## Screenshots
+
+### Main window — price chart with DCM markers
+
+![Main window — price chart with DCM markers](images/Screenshot%202026-07-09%20153615.png)
+
+The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat‑Manul) markers, shifted points, and limb visualisation.
+
+### News feed window
+
+![News feed window](images/Screenshot%202026-07-09%20153629.png)
+
+The news feed window shows the latest news from RSS sources with translated titles, frequency word analysis, and configurable highlighting.
