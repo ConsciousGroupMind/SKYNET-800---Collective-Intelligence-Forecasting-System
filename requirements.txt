@@ -1,0 +1,15 @@
+PyQt5==5.15.9
+numpy==1.24.3
+pandas==2.0.3
+pyqtgraph==0.13.3
+clickhouse-driver==0.2.5
+requests==2.31.0
+certifi==2023.7.22
+pyOpenSSL==23.2.0
+deep-translator==1.11.4
+feedparser==6.0.10
+python-dateutil==2.8.2
+ccxt==4.1.80
+matplotlib==3.7.2
+Pillow==10.0.1
+langdetect==1.0.9
