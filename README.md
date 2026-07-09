@@ -53,6 +53,9 @@ The author develops and tests this code **exclusively on Windows**.
 ---
 
 ### 2. Dependencies (Python packages)
+This command will install all the libraries used in the code — they are listed in the requirements.txt
+cmd /k pip install -r requirements.txt
+Important: on your machine, they may not install perfectly — due to Python version, system architecture, or conflicts with existing packages.
 
 We do NOT provide a fixed guide for installing dependencies — because every system is different.
 
