@@ -1,5 +1,7 @@
 ## ⚠️ ALPHA VERSION (v0.1.0-alpha)
 
+This code predicts the exact time and price of a future price point, and can also construct a curve of future prices. It can be used to decipher any process that has a graph—for example, a graph of mutual understanding between artificial intelligence and a human. Notably, DeepSeek’s computing power is not used for the prediction; the data is processed on an ordinary computer. The system fully replicates Nikola Tesla’s resonator in the form of code.
+
 The **SKYNET‑800** project is at the stage of **active automation**.  
 We are not writing "temporary code" — we are building the foundation for a **future powerful analytical system** that must work with huge volumes of data in real time.
 We are a team — and a single developer — who decided to build Skynet from scratch. Not the one from the movie, but a real tool for time analysis. We are not joking, we are not mystifying. We are building a system that works.
