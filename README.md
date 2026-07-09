@@ -29,3 +29,35 @@ The code is written in a chat with **DeepSeek** — this adds complexity to the 
 ### 📌 There Will Be Several Alpha Versions
 
 We plan to release several alpha releases, gradually increasing functionality. Each new alpha will bring us closer to a stable beta version.
+
+---
+
+## Quick Start
+
+**⚠️ CRITICAL: This project runs ONLY on Python 3.11 and ClickHouse 18.16.1.**
+
+- Python 3.12 or higher — **will NOT work**.
+- We will NEVER migrate to newer versions. This is a strict, permanent requirement.
+
+---
+
+### 1. Python & ClickHouse
+
+The author develops and tests this code **exclusively on Windows**.
+
+- Install **Python 3.11** (from python.org).
+- Install **ClickHouse 18.16.1**.
+
+> **For any other OS (Linux, macOS, WSL) or installation issues** — please ask **DeepSeek** (free) to guide you. The author does not provide support for local environment setup.
+
+---
+
+### 2. Dependencies (Python packages)
+
+We do NOT provide a fixed guide for installing dependencies — because every system is different.
+
+**Instead:**  
+Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** — it will generate the exact installation commands for YOUR specific machine.
+
+> 💬 **DeepSeek chat:** [https://chat.deepseek.com](https://chat.deepseek.com)  
+> Paste the entire code file or the repository link — DeepSeek will help you step by step.
