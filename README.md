@@ -73,19 +73,19 @@ Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** �
 
 ### Main window — price chart with DCM markers
 
-![Main window — price chart with DCM markers](images/Screenshot 2026-08-01 095217.png)
+![Main window — price chart with DCM markers]([images/Screenshot 2026-08-01 095217.png](https://raw.githubusercontent.com/ConsciousGroupMind/SKYNET-800---Collective-Intelligence-Forecasting-System/main/images/Screenshot%202026-08-01%20095217.png))
 
 The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat‑Manul) markers, shifted points, and limb visualisation.
 
 ### News feed window
 
-![News feed window](images/Screenshot 2026-08-01 095107.png)
+![News feed window][(images/Screenshot 2026-08-01 095107.png](https://raw.githubusercontent.com/ConsciousGroupMind/SKYNET-800---Collective-Intelligence-Forecasting-System/main/images/Screenshot%202026-08-01%20095107.png))
 
 The news feed window shows the latest news from RSS sources with translated titles, frequency word analysis, and configurable highlighting.
 
 ### Signals
 
-[EVENT JOURNAL](images/Screenshot 2026-08-01 095026.png)
+[EVENT JOURNAL]([images/Screenshot 2026-08-01 095026.png](https://raw.githubusercontent.com/ConsciousGroupMind/SKYNET-800---Collective-Intelligence-Forecasting-System/main/images/Screenshot%202026-08-01%20095026.png))
 
 An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links **news, market shocks, and geopolitical events** to a specific **ID (position)** in the SKYNET-800 system.
 
