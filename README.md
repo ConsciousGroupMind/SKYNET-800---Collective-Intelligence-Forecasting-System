@@ -76,11 +76,16 @@ Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** �
 The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat‑Manul) markers, shifted points, and limb visualisation. We can see that SUPPLY CHAINS with weights and precise timing replace each other, passing their weights on further — that is precisely why it is possible to construct a curve of future prices for months and years ahead; an accurate forecast of the price weight and its repetition over time makes this possible.
 
 ### News feed window
-![News feed window](images/Screenshot%202026-08-01%20095107.png)
+![News feed window](images/Screenshot%202026-08-20%20075644.png)
 
 The news feed window shows the latest news from RSS sources with translated titles, frequency word analysis, and configurable highlighting.
 
 ### Signals / Event Journal
-![EVENT JOURNAL](images/Screenshot%202026-08-01%20095026.png)
+![EVENT JOURNAL](images/Screenshot%202026-08-20%20075644.png)
 
 An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links **news, market shocks, and geopolitical events** to a specific **ID (position)** in the SKYNET-800 system.
+
+### Supply chain trees
+![Supply chain trees](images/Screenshot%202026-08-20%20075703.png)
+
+We see how the predicted events of time, with their price scales, flow into one another, forming endless tree branches that never cease.
