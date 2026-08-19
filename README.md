@@ -71,7 +71,7 @@ Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** �
 ## Screenshots
 
 ### Main window — price chart with DCM markers
-![Main window — price chart with DCM markers](images/Screenshot%202026-08-01%20095217.png)
+![Main window — price chart with DCM markers](images/Screenshot%2026-08-20%080127.png)
 
 The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat‑Manul) markers, shifted points, and limb visualisation.
 
