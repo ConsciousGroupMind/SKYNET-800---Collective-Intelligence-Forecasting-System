@@ -70,7 +70,7 @@ Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** �
 
 ## Screenshots
 
-### Main window — price chart with DCM markers
+### SUPPLY CHAINS
 ![Main window — price chart with DCM markers](images/Screenshot%202026-08-20%20080127.png)
 
 The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat‑Manul) markers, shifted points, and limb visualisation. We can see that SUPPLY CHAINS with weights and precise timing replace each other, passing their weights on further — that is precisely why it is possible to construct a curve of future prices for months and years ahead; an accurate forecast of the price weight and its repetition over time makes this possible.
