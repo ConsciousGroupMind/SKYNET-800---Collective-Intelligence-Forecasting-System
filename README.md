@@ -89,3 +89,9 @@ An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links 
 ![Supply chain trees](images/Screenshot%202026-08-20%20075703.png)
 
 We see how the predicted events of time, with their price scales, flow into one another, forming endless tree branches that never cease.
+
+### Foucault's pendulum
+![Foucault's pendulum](images/Video-Project-3%20(online-video-cutter.com)%20(1)%20(online-video-cutter.com).mp4)
+
+Nikola Tesla: "If you knew the splendor of the numbers 3, 6, and 9, you would have the key to the Universe"   
+We have discovered a universal stabilization mechanism that distinguishes the Janiszewski nut from a gyroscope that does not flip over. The number of faces is multiplied by the Fibonacci number 1.618 — the sphere has 8 faces, while the Janiszewski nut has 2. Thus, in terms of stabilization, we get not 3 revolutions with a flip, but 13; however, when the sphere rotates, it does not flip over after 13 revolutions (just as the Janiszewski nut makes 3 revolutions even when it is rotating, because it has a horn). The main formula in the code contains the numbers 15 and 30 — this is done for stabilization. In addition, the formula itself is a decomposed arithmetic mean and a method of spaced repetition (a similar technique was observed among the ancient Babylonians in their predictions of the stars, the Moon, and events — 13 is the number of the Lunar pendulum).
