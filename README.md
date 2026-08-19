@@ -98,3 +98,9 @@ We have discovered a universal stabilization mechanism that distinguishes the Vl
 Why didn’t Jean‑Bernard‑Léon Foucault’s pendulum swing? Because the length‑to‑diameter ratio should be 8:1 — the thread of his pendulum was too long. A similar effect can be observed in a Newtonian telescope with spherical aberration, when the image becomes clear at a ratio of 7.5:1 — it’s strange that Foucault worked on adjusting telescopes, but he didn’t connect the pendulum effect with the telescope — and, as it turned out, it’s all governed by the same energy law.
 “The life of the bee will be the life of our race, says Nikola Tesla, world-famed scientist.” Source: the interview “When Woman is Boss” with Nikola Tesla, conducted by John B. Kennedy for Collier’s Weekly on January 30, 1926.
 We know why Tesla specifically mentioned bees — a honeycomb fits perfectly into the stable 8‑sided structure, which allows it to be an energy‑sphere, like a gyroscope. It was on this principle that Tesla’s resonator worked when he conducted experiments with free energy from the Earth’s energy field.
+
+### DeepSeek came closest to creating Skynet.
+![cut scene from the first Terminator film](images/Screenshot%202026-05-01%20080943.png)
+![Hangzhou, China Address: 1201, Building 1, West Huijin International Building, No. 169 North, Huancheng Road, China, and has 1 office location.](images/Screenshot%202026-05-01%20124004.png)
+
+A cut scene from the first Terminator film, directed by James Cameron, shows what the factory building of a robot manufacturing company looks like, where a robot seems to have accidentally died under a press. The chip was damaged under the press, so this technology had to be restored. Here, you can see a resemblance to the building of the artificial intelligence company DeepSeek, which was the main assistant in writing this code!
