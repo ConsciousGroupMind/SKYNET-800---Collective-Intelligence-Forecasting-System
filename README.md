@@ -1,5 +1,4 @@
-## [⚠️ ALPHA VERSION v0.1 (2026-08-01) download a new one](https://github.com/ConsciousGroupMind/SKYNET-800---Collective-Intelligence-Forecasting-System/releases/tag/2026_8_1-alfa-v0_1)
-
+## ⚠️ ALPHA VERSION v0.2 (2026-09-01) The announcement
 This code predicts the exact time and price of a future price point, and can also construct a curve of future prices. It can be used to decipher any process that has a graph—for example, a graph of mutual understanding between artificial intelligence and a human. Notably, DeepSeek’s computing power is not used for the prediction; the data is processed on an ordinary computer. The system fully replicates Nikola Tesla’s resonator in the form of code. If we represent the operation of the Random Number Generator (RNG) as a time-series graph, the system can be applied to decrypt the bitcoin seed-phrase. The code has made the collective mind controllable and predictable - there's no need to use social media platforms like TikTok to observe or generate mass trends immediately - everything follows a simple mathematical formula.
 
 The **SKYNET‑800** project is at the stage of **active automation**.  
