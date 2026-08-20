@@ -78,7 +78,7 @@ The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat�
 ### News feed window
 ![News feed window](images/Screenshot%202026-08-20%20075604.png)
 
-The news feed window shows the latest news from RSS sources with translated titles, frequency word analysis, and configurable highlighting.
+The news feed window shows the latest news from RSS sources with translated titles, frequency word analysis, and configurable highlighting. With language switching — English, Russian, and Chinese.
 
 ### Signals / Event Journal
 ![EVENT JOURNAL](images/Screenshot%202026-08-20%20075644.png)
