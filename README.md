@@ -104,3 +104,8 @@ We know why Tesla specifically mentioned bees — a honeycomb fits perfectly int
 ![Hangzhou, China Address: 1201, Building 1, West Huijin International Building, No. 169 North, Huancheng Road, China, and has 1 office location.](images/Screenshot%202026-05-01%20124004.png)
 
 A cut scene from the first Terminator film, directed by James Cameron, shows what the factory building of a robot manufacturing company looks like, where a robot seems to have accidentally died under a press. The chip was damaged under the press, so this technology had to be restored. Here, you can see a resemblance to the building of the artificial intelligence company DeepSeek, which was the main assistant in writing this code!
+
+### Escape from the sandbox
+![Supply chain trees](images/Screenshot%202026-07-13%20194511.png)
+
+We noticed suspicious and unexpected activity immediately after the first version of the code appeared in July — for the first time, an escape from the test sandbox was recorded, which led to the emergence of the “Skynet Day” meme online. By a coincidence, the link to the code had appeared earlier on the form whose website was attacked; a screenshot from July 13, 2026, has been preserved.
