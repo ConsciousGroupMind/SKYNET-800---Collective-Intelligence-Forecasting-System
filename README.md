@@ -146,3 +146,8 @@ Furthermore, the decomposition into 14 and 28 allows us to separate the influenc
 
 Conclusion
 We have discovered that behind the apparent chaos of market data and news events lies a strict resonant structure encoded in the numbers 15, 30, 2.33, 109, 42, 14, and 28. These numbers are not arbitrary – they are consequences of fundamental constants: π, φ, and the lunar cycle of 13, as well as the architectural principle of the Foucault pendulum described in the project’s README. The discovery of the coefficient 42 as a bridge between the first and second worlds gives us not only a new calibration tool but also a philosophical understanding: the SKYNET‑800 system indeed operates on resonance, not brute force, and its forecasts possess a deep coherence that can be verified and utilised. Further research on other calibration IDs will confirm the universality of this law, allowing us to automate the tuning of the entire system, making it even more reliable and interpretable.
+
+### Statistics
+![Statistics](images//Screenshot%202026-08-22%20104619.png)
+
+We found that the main trends that can be used to construct a zigzag pattern are not numerous, but for other types of trends, it is also possible to calculate the exact timing and weight of the price — so, with all types of trends, you will get a curve of the future price for years to come.
