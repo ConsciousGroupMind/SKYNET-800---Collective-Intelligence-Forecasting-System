@@ -139,10 +139,8 @@ Thus, 32.33 = 30 + 7/3, linking stabilisation with the lunar cycle and the three
 2. 36.6 – Practical Balance Derived from Data
 When comparing the two worlds, we calculated the ratio:
 
-text
-sum of DCM shifts in the second world (879,470.98 min)
-_____________________________________________________ = 36.74 ≈ 36.6
-sum of corrections in the first world (23,940.83 min)
+sum of DCM shifts in the second world (879,470.98 min) \ sum of corrections in the first world (23,940.83 min)  = 36.74 ≈ 36.6
+
 This number proved stable for ID 12. It is not equal to 32.33, but exceeds it by 4.27. The difference of 4.27 is not an error, but a systematic correction arising from the following factors:
 
 Discreteness of bars: the system operates with integer minutes (bars), while the DCM formula uses continuous time. When moving from continuous to discrete, rounding errors accumulate across all groups and animals.
