@@ -275,6 +275,27 @@ Now we can:
 
 This turns SKYNET‑800 from a static model into an **adaptive, self‑diagnosing system** that not only computes forecasts but also “feels” its own state through temperature. We invite all project participants to test this hypothesis on their own data and join the exploration of the resonant nature of collective intelligence.
 
+Addendum: "Temperature, Pendulum and ID Number – A Numerical Structure"
+During the analysis of two calibration IDs – 12 and 78 – we discovered simple arithmetic relationships linking their temperatures, their numbers, and the pendulum constants 14 and 28.
+
+For ID 12, the temperature is 39.26. Adding 14 (half of 28):
+39.26 + 14 = 53.26
+Half of 53.26 is 26.63, which is almost exactly 26.6.
+This means that for ID 12, with its temperature of 39.26, adding 14 gives half of 53.26, bringing us back to a value close to 26.6.
+
+For ID 78, the temperature is 50.01. Adding 28:
+50.01 + 28 = 78.01, which rounds to 78 – the ID number.
+Half of 78 is 39, which is practically the ideal temperature (39–40°C).
+This means that ID 78, with its overheating at 50, when added to 28 gives its own number, and half of that number gives the target temperature of 39, which we are aiming for.
+
+Thus, we see two levels:
+
+For ID 78: (temperature + 28) / 2 = 39 → target temperature.
+
+For ID 12: (temperature + 14) / 2 = 26.6 → a baseline value that may be related to another level.
+
+This confirms that 14 and 28 are fundamental constants linking temperature and ID number. 39°C is the ideal working temperature, while 26.6°C may be the "baseline temperature" of the system, from which deviations are measured. These relationships give us a simple diagnostic tool: if (temperature + 28) / 2 is close to 39, the ID is balanced; if it is close to 26.6, it indicates another operating mode.
+
 ### Statistics
 ![Statistics](images/Screenshot%202026-08-22%20113308.png)
 
