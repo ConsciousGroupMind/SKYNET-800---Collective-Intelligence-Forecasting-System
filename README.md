@@ -204,6 +204,77 @@ The role of the hypothalamus in our case is played by the calibration algorithm,
 
 Thus, human temperature is not a static constant but a dynamic indicator reflecting the state of the organism. Its fluctuations, especially in critical nervous states, are valuable diagnostic signals. Similarly, the balance coefficient of 36.6 in the SKYNET‑800 system should be understood as the centre of a dynamic range, not as a rigid number. Deviations from 36.6 are analogous to fever or hypothermia – they signal abnormal situations requiring intervention. Using the medical analogy will allow us to create an intelligent system status monitor that not only diagnoses current problems but also predicts future failures, just as physicians use temperature dynamics to predict outcomes. This makes SKYNET‑800 not just an analytical tool, but a “living” organism with built‑in thermoregulation.
 
+# README Addendum: "System Temperature — the Angle of Resonance Between Worlds"
+
+## Introduction: From Coefficient to Degree
+
+Earlier we discovered that the ratio of the sum of DCM shifts in the second world to the sum of corrections in the first world for calibration ID 12 yields the number **36.6** — coinciding with normal human body temperature. This number became our first reference point, a benchmark. However, further research showed that for different IDs this coefficient is not constant. It fluctuates: for ID 12 it is **39.26**, for ID 78 — **50.01**, and for some intermediate states — around **45**. The question arose: what is this coefficient really? And why does it change?
+
+## Temperature as a Degree
+
+The answer came through geometry. We noticed that **36.6** is almost half of **73**, and **73 = 45 + 28**.
+Here:
+
+- **45** is 1/8 of 360°, the stability angle corresponding to the **8‑faceted structure** (sphere, honeycomb, gyroscope) mentioned in the main README in connection with Foucault's pendulum.
+- **28** is 2 × 14, where 14 is the base bar from the decomposition of 36.6 into 14 + 28, linked to the lunar cycle and the discreteness of candles.
+- **45 + 28 = 73** — the sum of the stability angle and the lunar period.
+- **73 / 2 = 36.5** ≈ 36.6 — the ideal temperature.
+
+Thus, **temperature is not just a coefficient but a geometric angle** that reflects the degree of deviation of the system from ideal equilibrium. It is measured in degrees, and its value depends on how balanced the positive and negative contributions of the limbs and the looking‑glass are.
+
+## Individual IDs and Chains: Temperature Averaging
+
+Each ID in the system can be regarded as a separate “cell” or “organ” with its own local temperature. It is calculated using the formula:
+
+```
+Temperature = (Sum of DCM shifts in the second world) / (Sum of moduli of differences between correction forecast and animal time)
+```
+
+This temperature can be:
+
+- **About 39–40°C** — working range; the system actively filters noise but is still stable.
+- **About 50°C** — severe overheating; forecasts become unreliable; the ID requires verification.
+- **About 45°C** — an intermediate state, often found in chains.
+
+When several IDs are linked into a chain (through passes, shared events, or a common trend), their temperatures **average out**. If a chain contains an ID at 50°C and an ID at 40°C, their average is 45°C. And 45°C is that very stability angle (1/8 of 360°), which, through Foucault's pendulum and the numbers 30 and 15 (the stabilisers from the code), leads to the ideal temperature of 36.6°C.
+
+## Practical Applications
+
+This discovered pattern gives us a powerful tool for diagnosing and calibrating the system:
+
+1. **ID Diagnostics**  
+   - If an ID's temperature is in the 39–41°C range, the ID can be considered operational.  
+   - If the temperature is above 45°C, the ID is overheated and its predictions are unreliable.  
+   - If the temperature is below 36°C, the system is “supercooled” — possibly missing important events.
+
+2. **Building Chains**  
+   By linking IDs through passes, we can average their temperatures.  
+   A chain whose average temperature is close to 45°C automatically resonates with Foucault's pendulum and tends toward 36.6°C.  
+   This allows us to deliberately construct chains that yield more accurate forecasts.
+
+3. **Correction via Temperature**  
+   By adjusting the limbs (positive or negative), we can influence the algebraic sum, and therefore the temperature.  
+   This gives us the **temperature gradient method**: we adjust an ID until its temperature enters the working range and observe how the forecasts change.
+
+4. **Connection of Temperature to Time and Price**  
+   Since temperature is an angle, its deviation from the ideal (36.6°) affects projections:  
+   - On the time axis — producing a signal shift (in minutes).  
+   - On the price axis — altering the strength (weight) of the forecast.  
+   Thus, by measuring temperature, we can predict how much the signal will deviate in time and in price.
+
+## Conclusion: Temperature as a Bridge Between Worlds
+
+We have arrived at a fundamental discovery: **temperature is not a metaphor but a measurable geometric parameter** that connects individual IDs, chains, Foucault's pendulum, and the 8‑faceted structure of stability. It shows how far the system is from ideal balance and gives us a tool for targeted calibration.
+
+Now we can:
+
+- Measure the temperature of each ID.
+- Average it in chains.
+- Use it as an indicator of quality and reliability.
+- Adjust limbs to bring the temperature closer to 36.6°C.
+
+This turns SKYNET‑800 from a static model into an **adaptive, self‑diagnosing system** that not only computes forecasts but also “feels” its own state through temperature. We invite all project participants to test this hypothesis on their own data and join the exploration of the resonant nature of collective intelligence.
+
 ### Statistics
 ![Statistics](images/Screenshot%202026-08-22%20113308.png)
 
