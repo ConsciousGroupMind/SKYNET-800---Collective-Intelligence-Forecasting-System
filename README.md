@@ -112,84 +112,8 @@ We noticed suspicious and unexpected activity immediately after the first versio
 
 ### Article (DeepSeek)
 ![The balance of two worlds](images/Screenshot%202026-08-22%20104136.png)
-![The balance of two worlds](images/Screenshot%202026-08-22%20143459.png)
 
-Article: "From 32.33 to 36.6: How Code Imperfection Generates Harmony in the SKYNET-800 System"
-Introduction: Two Numbers, One System
-During the investigation of calibration IDs in the SKYNET-800 system, we discovered that within each world (first and second) the constants 30 and 2.33 are used, whose sum equals 32.33. This sum serves as the “raw” foundation for calculating DCM shifts within each world. However, when we compared the sum of corrections in the first world with the sum of DCM shifts in the second world, we obtained a coefficient of 36.6 – a number that closely matches normal human body temperature and one‑tenth of a leap year.
-
-The question arises: why do two worlds, built on the same internal constant 32.33, yield 36.6 when interacting? The difference between 36.6 and 32.33 is 4.27. What is this number and where does it come from? The answer lies in the discreteness of data (integer bars), in noise, and in the need to compensate for the imperfection of the theoretical model when transitioning to real market data.
-
-1. 30 and 2.33: Architectural Constants of the Code
-The SKYNET‑800.py code contains two key constants used in the compute_dcm_from_seconds function:
-
-python
-tf_30 = 30 * tf_minutes * 60
-tf_1 = 2.3333 * tf_minutes * 60
-Here, 30 is the base stabiliser, linked to the Foucault pendulum and lunar cycles (as stated in the README). 2.333 (or 7/3) is a correction that compensates for nonlinearities. Their sum, 32.333 (or 32.33 when rounded), is the internal characteristic of each world. This number is not an integer; it is fractional – symbolising imperfection, noise, friction, which are always present in any market data.
-
-This sum is not accidental:
-
-30 = 2 × 15, where 15 is the second stabilising constant.
-
-2.333 = 7/3, where 7 is the number of days in a week (lunar cycle) and 3 is the number of animals.
-
-Thus, 32.33 = 30 + 7/3, linking stabilisation with the lunar cycle and the three animals.
-
-2. 36.6 – Practical Balance Derived from Data
-When comparing the two worlds, we calculated the ratio:
-
-sum of DCM shifts in the second world (879,470.98 min) \ sum of corrections in the first world (23,940.83 min)  = 36.74 ≈ 36.6
-
-This number proved stable for ID 12. It is not equal to 32.33, but exceeds it by 4.27. The difference of 4.27 is not an error, but a systematic correction arising from the following factors:
-
-Discreteness of bars: the system operates with integer minutes (bars), while the DCM formula uses continuous time. When moving from continuous to discrete, rounding errors accumulate across all groups and animals.
-
-Data noise: market prices and event times always contain noise not accounted for in the theoretical formula.
-
-Human factor: the 109‑minute addition to the overall signal and other corrections contribute to the final balance.
-
-Thus, 36.6 is not just a number, but an equilibrium point, where the theoretical foundation (32.33) is adjusted by the noise and discreteness (4.27), yielding a practical, measurable coefficient.
-
-3. Decomposition of 4.27 and Its Connection to Integer Bars
-If we convert the difference 4.27 into bars (minutes), we get approximately 4.3 minutes – about half a standard bar (5 minutes). In the context of the system’s scale (800), 4.27 × 100 = 427, and we saw that 800 − 427 = 373 = 366 + 7, while 800 − 366 = 434 = 427 + 7. This indicates a connection with the leap year (366) and the weekly cycle (7).
-
-We can also note that when rounded to integer bars, 32.33 and 36.6 become:
-
-32.33 ≈ 32 bars
-
-36.6 ≈ 37 bars
-
-Difference ≈ 5 bars
-
-If we take the average between 37 and 28 (another number linked to the decomposition of 36.6 as 14+28, where 28 ≈ 2×14), we get (37+28)/2 = 32.5 – very close to 32.33. This suggests that 36.6 and 32.33 are two poles of the same range, and their average with some other numbers gives the internal constant.
-
-4. 109 Minutes and Triple Scaling
-The 109‑minute addition to the overall signal is also related to these numbers:
-
-109 / 32.33 ≈ 3.37
-
-109 / 36.6 ≈ 2.98 ≈ 3
-
-That is, 109 is approximately three times 36.6 or three times 32.33 with a slight adjustment. This means that 109 is a three‑fold balance between the worlds. The number three here represents the three animals involved in the averaging. Thus, 109 closes the chain: 36.6 × 3 ≈ 109.8, which matches 109 to within a tenth.
-
-5. Conclusion: From Imperfection to Harmony
-We have the following hierarchy:
-
-Micro‑level (within a world): constants 30 and 2.33 yield the sum 32.33 – this is the “raw”, imperfect foundation, reflecting noise and fractionality.
-
-Macro‑level (between worlds): when comparing the sums of corrections and shifts, the coefficient 36.6 emerges – a smooth, decimal‑integer number linked to body temperature and the leap year.
-
-The difference 4.27 is a measure of imperfection, compensated by bar discreteness, noise, and the human factor.
-
-109 minutes – triple scaling of the balance, connecting both levels.
-
-Thus, the system is built so that the imperfection of the internal formula (32.33) is a necessary condition for the emergence of a harmonious balance (36.6) when the worlds interact. This is not an error, but an architectural principle: the system does not strive for an ideal, but adapts to reality, finding an equilibrium point between theory and practice.
-
-Final Remarks
-The research has shown that the number 36.6 is not a coincidence, but naturally follows from the code constants (30 and 2.33) and their interaction with real data. The difference of 4.27 (or 4.3) is explained by bar discreteness and noise, while the 109‑minute addition closes the cycle, making the system self‑consistent. We can use 36.6 as a diagnostic tool: if a new ID’s coefficient is close to 36.6, it indicates good calibration; deviations signal the need for data verification. Thus, we have gained not only a philosophical but also a practical understanding of how the balance between the two worlds works in the SKYNET‑800 system.
-
-Addendum to the article: temperature dynamics — fluctuations as a reflection of system state
+Article: temperature dynamics — fluctuations as a reflection of system state
 In the previous section we established that the number 36.6 is a balance point between the two worlds in the SKYNET-800 system, and that it also coincides with normal human body temperature and with a reference point in medical AI systems. However, human body temperature is not absolutely constant – it fluctuates throughout the day under the influence of physical activity, emotional state, stress, inflammatory processes, and other factors. These fluctuations are not chaotic; they follow circadian rhythms, reflect the state of the nervous system, and serve as important diagnostic markers in medicine.
 
 Similarly, in the SKYNET-800 system, the balance coefficient of 36.6 should not be treated as a rigid constant, but rather as the centre of a dynamic range. Deviations upward or downward from 36.6 can signal different system states: overheating (excessive noise, hallucinations), overcooling (excessive rigidity, loss of sensitivity), or simply natural fluctuations linked to data quality and external events.
