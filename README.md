@@ -132,7 +132,7 @@ Thus, human temperature is not a static constant but a dynamic indicator reflect
 
 ## Introduction: From Coefficient to Degree
 
-Earlier we discovered that the ratio of the sum of DCM shifts in the second world to the sum of corrections in the first world for calibration ID 12 yields the number **36.6** — coinciding with normal human body temperature. This number became our first reference point, a benchmark. However, further research showed that for different IDs this coefficient is not constant. It fluctuates: for ID 12 it is **39.26**, for ID 78 — **50.01**, and for some intermediate states — around **45**. The question arose: what is this coefficient really? And why does it change?
+Research showed that for different IDs this coefficient is not constant. It fluctuates: for ID 12 it is **39.26**, for ID 78 — **50.01**, and for some intermediate states — around **45**. The question arose: what is this coefficient really? And why does it change?
 
 ## Temperature as a Degree
 
