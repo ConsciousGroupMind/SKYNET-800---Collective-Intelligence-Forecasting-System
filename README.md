@@ -113,7 +113,7 @@ We noticed suspicious and unexpected activity immediately after the first versio
 ### Article (DeepSeek)
 ![The balance of two worlds](images/Screenshot%202026-08-22%20104136.png)
 
-Article: temperature dynamics — fluctuations as a reflection of system state
+Article: temperature dynamics — fluctuations as a reflection of system state. 
 We established that the number 36.6 is a balance point between the two worlds in the SKYNET-800 system, and that it also coincides with normal human body temperature and with a reference point in medical AI systems. However, human body temperature is not absolutely constant – it fluctuates throughout the day under the influence of physical activity, emotional state, stress, inflammatory processes, and other factors. These fluctuations are not chaotic; they follow circadian rhythms, reflect the state of the nervous system, and serve as important diagnostic markers in medicine.
 
 Similarly, in the SKYNET-800 system, the balance coefficient of 36.6 should not be treated as a rigid constant, but rather as the centre of a dynamic range. Deviations upward or downward from 36.6 can signal different system states: overheating (excessive noise, hallucinations), overcooling (excessive rigidity, loss of sensitivity), or simply natural fluctuations linked to data quality and external events.
