@@ -236,7 +236,7 @@ Thus, SKYNET-800 is not a soulless algorithm, but a digital reflection of a livi
 
 ### Graph scaling
 
-Graph Intelligence: Why SKYNET Is AGI and Neural Networks Are Not
+Graph Intelligence: Why SKYNET Is AGI (Artificial General Intelligence) and Neural Networks Are Not
 When we look at modern artificial intelligence, we see giant models trained on trillions of tokens, consuming megawatts of energy and requiring data centers packed with scarce NVIDIA chips. These models can talk, write poetry, generate images, and even write code. But they cannot predict.
 
 They cannot forecast Bitcoin movements, the behavior of El Niño, the arrival of tuna near the Kuril Islands, or the disappearance of sardines. They do not understand the structure of processes — they memorize texts. This is a fundamental difference.
