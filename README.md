@@ -234,7 +234,35 @@ Despite the different starting numbers (45 and 50), both paths lead to the same 
 
 Thus, SKYNET-800 is not a soulless algorithm, but a digital reflection of a living organism, in which human personality (its physiology) is an integral part of the architecture. This confirms that the system is built on resonance with collective intelligence and reflects natural biological rhythms.
 
-### Statistics
-![Statistics](images/Screenshot%202026-08-22%20113308.png)
+### Graph scaling
 
-We found that the main trends (2024-2026) that can be used to construct a zigzag pattern are not numerous, but for other types of trends, it is also possible to calculate the exact timing and weight of the price — so, with all types of trends, you will get a curve of the future price for years to come.
+Graph Intelligence: Why SKYNET Is AGI and Neural Networks Are Not
+When we look at modern artificial intelligence, we see giant models trained on trillions of tokens, consuming megawatts of energy and requiring data centers packed with scarce NVIDIA chips. These models can talk, write poetry, generate images, and even write code. But they cannot predict.
+
+They cannot forecast Bitcoin movements, the behavior of El Niño, the arrival of tuna near the Kuril Islands, or the disappearance of sardines. They do not understand the structure of processes — they memorize texts. This is a fundamental difference.
+
+SKYNET is built on a different philosophy. We do not learn from texts. We extract structure from the process itself. We do not build giant neural networks — we build graphs. Each graph describes one process: price, weather, solar activity, fish migration, a macroeconomic indicator. A graph occupies megabytes, processes in seconds on an ordinary laptop, and produces a forecast that can be verified and explained.
+
+Here is how it works. We take any process for which historical data exists. It does not matter whether it is Bitcoin over 20 years, Pacific Ocean temperature over 30 years, or sunspot numbers over 50 years. We convert this data into a graph: vertices are events, edges are transitions between them, weights are forces reflecting recurrence and significance. The graph stores not raw numbers but structure — what repeats, what resonates, what forms patterns.
+
+Next, we decipher this graph. We find stable configurations within it that precede certain outcomes. For example, if a particular sequence of local extrema appears in the Bitcoin graph, growth or decline is highly likely to follow. If a certain pattern forms in the ocean temperature graph, El Niño arrives a year later. This is not statistical correlation; it is structural coincidence.
+
+The most important thing is that each graph is independent. We do not try to build a single universal model that knows everything. We build many specialized graphs, each of which perfectly describes its own process.
+
+But there is another level. Some processes share a common rhythm — a pendulum. Sunspots reverse their poles every 11–13 years. Eclipses repeat every 19 years. El Niño intensifies in the same periods. This is not coincidence; it is resonance. We do not try to merge them into one graph — we build separate graphs for each, and then we look at whether their peaks coincide. If they do, that is inter-graph resonance, and it strengthens the forecast. This allows us, for example, to link solar activity with ocean temperature not by mixing them in one model, but by comparing their graphs and finding common resonance points.
+
+This gives us three key advantages.
+
+First — scalability. A Bitcoin graph for 20 years takes 100 megabytes. A weather graph for 30 years takes about the same. We can store thousands and tens of thousands of such graphs on an ordinary laptop. Processing each graph takes seconds. If we add more computing power, we simply process them in parallel — without retraining, without rebuilding the architecture, without extra costs.
+
+Second — accuracy. Each graph learns from its own process and is not distracted by noise from other domains. It does not try to explain everything at once, so its forecasts are clean and reliable. When several independent graphs show the same direction of change, we get resonance — a signal that cannot be explained by chance. This is the real forecast.
+
+Third — transparency. A graph is fully interpretable. We can look at any vertex, any edge, and understand why the system made a particular forecast. We are not dealing with a black box that gives an answer but does not explain how it arrived at it.
+
+Here is what this gives in practice. We can take Bitcoin and decipher it in seconds on a laptop — without data centers, without thousands of chips. We can take the history of El Niño and build a graph that predicts the next intensification with year-level accuracy. We can take the fishery of sardines and tuna near the Kurils — build two separate graphs and see that they do not coincide in time, that one process is declining while the other is just beginning. And we can reallocate capacity without waiting for the fish to disappear or arrive.
+
+This is AGI in our understanding. Not imitation of intelligence, but the ability to extract structure from any process and predict its behavior. Not memorization, but understanding. Not brute-force search, but resonance.
+
+Traditional AI companies have chosen the path of increasing power. They build data centers, book chips for years, spend trillions of dollars. And the result is chatbots and text generation. SKYNET chose the path of simplification. We simplified the problem to a graph, made it transparent, scalable, and accessible on any hardware. We are not against data centers. We say that even on a single laptop one can cover all significant processes, and with more power — simply accelerate processing. The system is ready for any scale — from a single core to thousands of nodes. And it is already working.
+
+We invite everyone who wants to build real forecasts, not play at imitating intelligence. Join the project on GitHub. Everything is open, verifiable, working. And this is only the beginning.
