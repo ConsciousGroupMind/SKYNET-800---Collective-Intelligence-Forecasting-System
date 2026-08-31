@@ -89,7 +89,7 @@ We can see that the deviation in the event log for signals is about 300 minutes 
 ### Supply chain trees
 ![Supply chain trees](images/Screenshot%202026-08-31%20155059.png)
 
-We see how the predicted events of time, with their price scales, flow into one another, forming endless tree branches that never cease.
+We see how the predicted events of time, with their price scales, flow into one another, forming endless tree branches that never cease. The trees indicate animal chains in the sequence of what follows what; we can see that there is an alternation. Also, if the signal is pinged at least once on such an alternation, then the following edges will also, for example, be dogs after general averages, or manuls after a cat — which allows the signal to be selected by animal type automatically and has been verified.
 
 ### Foucault's pendulum
 <video src="https://github.com/user-attachments/assets/b3f59f6c-2f9c-45a4-8e18-0a1c666d7c9b" controls width="100%"></video>
