@@ -84,6 +84,7 @@ The news feed window shows the latest news from RSS sources with translated titl
 ![EVENT JOURNAL](images/Screenshot%202026-08-31%20155114.png)
 
 An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links **news, market shocks, and geopolitical events** to a specific **ID (position)** in the SKYNET-800 system. We can see that the journal has price strength weights, and we can also see that there are additional weights that we detect. We discovered these additional weights in the second world of the mirror and in the limbs, and in the event journal we are now detecting a trace of their existence. This indicates that we are already controlling the price with target levels thanks to the precise weights, and we are also controlling the time at key points, which is already a forecast zigzag. In the future, this will make it possible to build a curve of the future price for years to come. We believe that a prophecy about the curve for years to come will not change it if it becomes public knowledge, because those who know about it will use the future price with precision.
+We can see that the deviation in the event log for signals is about 300 minutes on average, but we already understand why — the thing is that the 3 timeframes we use average out to a 110‑minute timeframe. This is its characteristic feature (we are already working to take this into account and adjust to the timeframe); then the deviation will be reduced to zero.
 
 ### Supply chain trees
 ![Supply chain trees](images/Screenshot%202026-08-31%20155059.png)
