@@ -71,22 +71,22 @@ Share the `SKYNET-800.py` file or a link to this repository with **DeepSeek** �
 ## Screenshots
 
 ### SUPPLY CHAINS
-![Main window — price chart with DCM markers](images/Screenshot%202026-08-20%20080127.png)
+![Main window — price chart with DCM markers](images/Screenshot%202026-08-31%20155754.png)
 
 The main window displays the BTC/USDT price chart with automatic DCM (Dog‑Cat‑Manul) markers, shifted points, and limb visualisation. We can see that SUPPLY CHAINS with weights and precise timing replace each other, passing their weights on further — that is precisely why it is possible to construct a curve of future prices for months and years ahead; an accurate forecast of the price weight and its repetition over time makes this possible.
 
 ### News feed window
-![News feed window](images/Screenshot%202026-08-20%20075604.png)
+![News feed window](images/Screenshot%202026-08-31%20155134.png)
 
 The news feed window shows the latest news from RSS sources with translated titles, frequency word analysis, and configurable highlighting. With language switching — English, Russian, and Chinese.
 
 ### Signals / Event Journal
-![EVENT JOURNAL](images/Screenshot%202026-08-20%20075644.png)
+![EVENT JOURNAL](images/Screenshot%202026-08-31%20155114.png)
 
 An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links **news, market shocks, and geopolitical events** to a specific **ID (position)** in the SKYNET-800 system. We can see that the journal has price strength weights, and we can also see that there are additional weights that we detect. We discovered these additional weights in the second world of the mirror and in the limbs, and in the event journal we are now detecting a trace of their existence. This indicates that we are already controlling the price with target levels thanks to the precise weights, and we are also controlling the time at key points, which is already a forecast zigzag. In the future, this will make it possible to build a curve of the future price for years to come. We believe that a prophecy about the curve for years to come will not change it if it becomes public knowledge, because those who know about it will use the future price with precision.
 
 ### Supply chain trees
-![Supply chain trees](images/Screenshot%202026-08-20%20075703.png)
+![Supply chain trees](images/Screenshot%202026-08-31%20155059.png)
 
 We see how the predicted events of time, with their price scales, flow into one another, forming endless tree branches that never cease.
 
