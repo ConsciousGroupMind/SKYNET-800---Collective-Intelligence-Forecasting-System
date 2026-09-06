@@ -87,6 +87,143 @@ The news feed window shows the latest news from RSS sources with translated titl
 An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links **news, market shocks, and geopolitical events** to a specific **ID (position)** in the SKYNET-800 system. We can see that the journal has price strength weights, and we can also see that there are additional weights that we detect. We discovered these additional weights in the second world of the mirror and in the limbs, and in the event journal we are now detecting a trace of their existence. This indicates that we are already controlling the price with target levels thanks to the precise weights, and we are also controlling the time at key points, which is already a forecast zigzag. In the future, this will make it possible to build a curve of the future price for years to come. We believe that a prophecy about the curve for years to come will not change it if it becomes public knowledge, because those who know about it will use the future price with precision.
 We can see that the deviation in the event log for signals is about 300 minutes on average, but we already understand why — the thing is that the 3 timeframes we use average out to a 110‑minute timeframe. This is its characteristic feature (we are already working to take this into account and adjust to the timeframe); then the deviation will be reduced to zero.
 
+### Second World Force Calculation for ID 12
+
+---
+
+**Second World Force (limbs only, without mirror) for ID 12:**
+- *Cat – Whiskers: from LEFT point to RIGHT (groups 3 and 4): 84056 - 89482 = -5426*
+- *Cat – Organ: from LEFT point to RIGHT (groups 5 and 6): 114752 - 115508 = -756*
+- *Dog – Tail: from LEFT point to RIGHT (groups 1 and 2): 114969 - 112017 = +2952*
+- *Dog – Organ: from LEFT point to RIGHT (groups 5 and 6): 106519 - 115508 = -8989*
+- *Manul – Whiskers: from LEFT point to RIGHT (groups 3 and 4): 84023 - 101272 = -17250*
+- *Manul – Organ: from LEFT point to RIGHT (groups 5 and 6): 106519 - 115508 = -8989*
+
+**Sum of limbs for ID 12, without mirror, from LEFT to RIGHT: -38458**
+
+---
+
+**ID 12, MIRROR:**
+
+- *12 Cat – Whiskers (mirror 1):*  
+  MIRROR: tail on whiskers, from LEFT point to RIGHT (groups 9 and 10): 90472 - 90171 = +301
+
+- *12 Cat – Organ (mirror 1):*  
+  MIRROR: tail on organ, from LEFT point to RIGHT (groups 17 and 18): 114969 - 113700 = +1269
+
+- *12 Manul – Whiskers (mirror 1):*  
+  MIRROR: organ on whiskers, from LEFT point to RIGHT (groups 15 and 16): 101906 - 101272 = +634
+
+- *12 Manul – Whiskers (mirror 2):*  
+  MIRROR: tail on whiskers, from LEFT point to RIGHT (groups 9 and 10): 101292 - 106351 = -5059
+
+- *12 Manul – Organ (mirror 1):*  
+  MIRROR: whiskers on organ, from LEFT point to RIGHT (groups 11 and 12): 106519 - 102254 = +4264
+
+- *12 Manul – Organ (mirror 2):*  
+  MIRROR: tail on organ, from LEFT point to RIGHT (groups 17 and 18): 114969 - 113700 = +1269
+
+- *12 Dog – Tail (mirror 1):*  
+  MIRROR: organ on tail, from LEFT point to RIGHT (groups 13 and 14): 115435 - 112017 = +3418
+
+- *12 Dog – Tail (mirror 2):*  
+  MIRROR: whiskers on tail, from LEFT point to RIGHT (groups 7 and 8): 114969 - 113700 = +1269
+
+**Sum of mirror for ID 12, from LEFT to RIGHT: 7364**
+
+---
+
+**+22895.7 actual force for ID 12, in dollars.**  
+**+17288.28 forecast force of the first world, in dollars.**
+
+**Total for ID 12, mirror and limbs together (from LEFT to RIGHT):**  
+38458 + 7364 = 45822 ÷ 2 = 22911.1
+
+---
+
+**Coefficient for each animal (corresponding DCM component / sum of absolute differences):**
+- Cat: sum cat = 25691.25 min, sum of absolute differences = 3280.00 min, coefficient = 7.83
+- Dog: sum dog = 96500.00 min, sum of absolute differences = 9570.00 min, coefficient = 10.08
+- Manul: sum manul = 127773.98 min, sum of absolute differences = 9540.00 min, coefficient = 13.39
+- Average coefficient = (7.83 + 10.08 + 13.39) / 3 = 10.44
+- Comparison: 32.33 / 3 = 10.776667
+- Difference (average coefficient - 32.33/3) = -0.340069
+- → The average coefficient differs from 32.33/3, which may indicate a mismatch.
+
+---
+
+**BALANCE COEFFICIENT (ID angle):**
+- Timeframe scale: 110 = (30 + 60 + 240) / 3 (average timeframe in minutes).
+- Ideal K_ideal = (1440 / 110) * 3 = 39.2727.
+- Sum of DCM shifts of the second world: 879470.98 min
+- Sum of absolute differences (Animal time → Forecast correction): 22390.00 min
+- K = 879470.98 / 22390.00 = 39.2796
+- Ideal K_ideal = 39.2727
+- Deviation ΔK = +0.0069
+- → Deviation is minimal (almost ideal alignment with scale).
+- → Expected force deviation for this ID will be small.
+
+---
+
+**Reference:** sum of absolute differences (22390.00 min) and second world force (22911.07) are close, which may indicate a scale factor of ~1.023.
+
+---
+
+**PENDULUM NUMBER:**
+- 39.28 / 3 ≈ 13.0933
+- 1440 / 110 ≈ 13.0909
+- 32.33 / 3 = 10.7767  (sum of angles 15+30+2.33, divided by 3)
+- Difference (39.28/3 - 1440/110) = 0.0024
+- Difference (average coefficient from item 10 - 32.33/3) = -0.3401
+
+---
+
+**REFERENCE PENDULUM FREQUENCY (13.33 kHz):**
+- 13.33 kHz — reference frequency associated with the system scale.
+- Wavelength: λ = c / f = 299792458 / 13330 ≈ 22490 m ≈ 22.5 km.
+- 22.5 km — this is the height of the ozone layer (tropopause).
+- This number is related to the scale coefficient 13.09:
+  - 1440 / 110 ≈ 13.09
+  - 39.28 / 3 ≈ 13.09
+  - 32.33 / 3 ≈ 10.78 (scaled base angle)
+- Thus, 13.33 kHz is a reference unifying time, space, and frequency.
+
+---
+
+**TANGENT OF THE BASE FORMULA:**
+- Base angle = 32.33° → tg(32.33°) = 0.6329
+
+---
+
+**CONNECTION WITH THE GOLDEN RATIO (Fibonacci numbers):**
+- φ = (1+√5)/2 ≈ 1.618034
+- 1/φ ≈ 0.618034
+- tg(32.33°) = 0.6329
+- Deviation from 1/φ: +0.0149 (+2.41%)
+- ctg(32.33°) = 1.5800
+- Deviation from φ: -0.0380 (-2.35%)
+- → The base angle of the system is close to the golden ratio, confirming the harmony of proportions.
+- Trend = 36610 min
+- tg(32.33°) × trend = 0.6329 × 36610 ≈ 23171
+- Second world force = 22911.1
+- Ratio (tg*trend) / force = 1.011
+- → Almost matches (difference less than 2%), confirming a direct connection between time and price through the tangent.
+
+---
+
+**EXPLANATION:**
+- The tangent of the slope angle (ratio of opposite leg to adjacent leg) in this context shows what price change (in dollars) corresponds to one unit of time (in minutes).
+- For the base angle of 32.33°, this coefficient is ~0.633, which, when multiplied by the trend duration, gives a theoretical force close to that calculated through DCM and limbs.
+- This confirms that time and money are connected through the geometric slope angle of the trend.
+
+---
+
+**ANGLE DIFFERENCE:**
+- ID angle (K) = 39.2796°
+- Base angle from formula = 32.33°
+- Difference = 39.2796 - 32.33 = +6.9496°
+- (This is a visual mismatch, but it is compensated through the scale factor 3, since K/3 ≈ 13.09.)
+
 ### Supply chain trees
 ![Supply chain trees](images/Screenshot%202026-08-31%20155059.png)
 
