@@ -224,6 +224,27 @@ We can see that the deviation in the event log for signals is about 300 minutes 
 - Difference = 39.2796 - 32.33 = +6.9496°
 - (This is a visual mismatch, but it is compensated through the scale factor 3, since K/3 ≈ 13.09.)
 
+Signal Time Accuracy and Force Calibration
+In the SKYNET-800 system, the signal time is calculated with high precision using the DCM (Dog–Cat–Manul) transformations and subsequent corrections. For a well‑balanced ID (e.g., ID 12), the signal time perfectly aligns with the system’s temporal scale.
+
+The balance coefficient K (the ratio of the sum of DCM shifts of the second world to the sum of absolute differences between Animal Time and Forecast Correction) serves as a measure of this alignment. When K is close to the ideal value
+
+K_ideal = (1440 / 110) × 3 ≈ 39.2727,
+
+the time‑related components are consistent, and the signal time is reliable.
+
+However, the forecast force (in dollars) is not directly involved in the balancing formula. It is derived separately as
+
+Force = (Sum_of_limbs + Sum_of_mirror) / 2.
+
+For the force to fall within the correct timeframe scale (average timeframe = 110 minutes), it must be adjusted according to the deviation of K from K_ideal — i.e., corrected by the “degree” offset. If ΔK = K − K_ideal is small, the force naturally matches the scale; if ΔK grows, the force will drift away from the expected value, even though the signal time remains accurate.
+
+The primary source of residual inaccuracies is the 4‑hour timeframe, which is too coarse to seamlessly integrate with the 30‑minute and 1‑hour timeframes. This coarseness introduces minor errors in the detection of intersection points and, consequently, in the DCM shifts that determine the force. Nevertheless, the signal time itself stays precise.
+
+Thus, each ID is autonomous and does not require pairing with an opposite (short) ID to complete the picture. The system is self‑contained: by monitoring ΔK, one can anticipate whether the forecast force will be reliable. This approach aligns with the core principles of SKYNET‑800 — graph scaling, node autonomy, and harmonisation through fundamental constants.
+
+This addition clarifies the relationship between time accuracy, balance coefficient, and force calibration, explaining why force can deviate even when signal time is correct, and why the 4‑hour timeframe is the main source of minor errors
+
 ### Supply chain trees
 ![Supply chain trees](images/Screenshot%202026-08-31%20155059.png)
 
