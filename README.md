@@ -133,6 +133,8 @@ Averaging across all groups masks the issue, so for accuracy, individual groups 
 
 In the future, automatic correction of such IDs based on the identified dependency is planned.
 
+THE LESS TIMEFRAME IS SELECTED, THE LESS DEVIATION THERE WILL BE!
+
 ![Deviation](images/Screenshot%202026-09-09%20204711.png)
 ![Deviation](images/Screenshot%202026-09-09%20205642.png)
 
