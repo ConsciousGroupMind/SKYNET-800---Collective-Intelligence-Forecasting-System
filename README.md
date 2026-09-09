@@ -90,7 +90,7 @@ We can see that the deviation in the event log for signals is about 300 minutes 
  Detection of Systematic Timeframe Deviation (with Visual Evidence)
 During the analysis of rare anomalous IDs (107 and 151), a stable pattern was identified, clearly illustrated in the screenshots below.
 
-🖼 Screenshot 1 – ID 151 (Dog)
+🖼 Screenshot 1 – ID 151 (Cat)
 The image shows the calculation for ID 151:
 
 Trend difference 4h→30m = –570 min (absolute value 570).
