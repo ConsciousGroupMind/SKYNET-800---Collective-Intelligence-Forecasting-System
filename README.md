@@ -87,6 +87,56 @@ The news feed window shows the latest news from RSS sources with translated titl
 An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links **news, market shocks, and geopolitical events** to a specific **ID (position)** in the SKYNET-800 system. We can see that the journal has price strength weights, and we can also see that there are additional weights that we detect. We discovered these additional weights in the second world of the mirror and in the limbs, and in the event journal we are now detecting a trace of their existence. This indicates that we are already controlling the price with target levels thanks to the precise weights, and we are also controlling the time at key points, which is already a forecast zigzag. In the future, this will make it possible to build a curve of the future price for years to come. We believe that a prophecy about the curve for years to come will not change it if it becomes public knowledge, because those who know about it will use the future price with precision.
 We can see that the deviation in the event log for signals is about 300 minutes on average, but we already understand why — the thing is that the 3 timeframes we use average out to a 110‑minute timeframe. This is its characteristic feature (we are already working to take this into account and adjust to the timeframe); then the deviation will be reduced to zero.
 
+ Detection of Systematic Timeframe Deviation (with Visual Evidence)
+During the analysis of rare anomalous IDs (107 and 151), a stable pattern was identified, clearly illustrated in the screenshots below.
+
+🖼 Screenshot 1 – ID 151 (Dog)
+The image shows the calculation for ID 151:
+
+Trend difference 4h→30m = –570 min (absolute value 570).
+
+The only significant group is 18, with an average deviation of –280 min.
+
+Calculated deviation: 570 + 280 = 850 min.
+
+Actual deviation from column 18: –938.4 min.
+
+Difference between calculated and actual: 88.4 min (explained by other factors).
+
+🖼 Screenshot 2 – ID 107 (Dog)
+The image shows the calculation for ID 107:
+
+Trend difference 4h→30m = –570 min.
+
+Averaged positive groups (1,5,7,11,13,17) give a mean of 160.33.
+
+Averaged negative groups (2,6,8,12,14,18) give a mean of 126.12.
+
+Sum of means: 160.33 + 126.12 = 286.45.
+
+Calculated deviation: 570 + 286.45 = 856.45 min.
+
+Actual deviation: –941.5 min.
+
+Difference: 85.05 min.
+
+📊 Interpretation
+In both cases, the core of the error is 570 minutes (the difference between 4h and 30m). On top of this core, the deviations from the limbs (groups 1–18) are superimposed. The sign of the final deviation always matches the sign of the 4h→30m difference (negative in these examples).
+
+This confirms that the primary source of systematic error is the mismatch of timeframe grids, with limbs only amplifying the effect.
+
+🛠 Practical Implications
+For anomalous IDs (deviation > 500 min), individual calibration is recommended using the formula
+|deviation| ≈ 570 + mean_positive + mean_negative.
+
+Averaging across all groups masks the issue, so for accuracy, individual groups should be analysed separately.
+
+In the future, automatic correction of such IDs based on the identified dependency is planned.
+
+![Deviation](images/Screenshot%202026-09-09%20204711.png)
+![Deviation](images/Screenshot%202026-09-09%20205642.png)
+
+
 ### Second World Force Calculation for ID 12
 
 ---
