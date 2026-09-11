@@ -141,7 +141,11 @@ THE LESS TIMEFRAME IS SELECTED, THE LESS DEVIATION THERE WILL BE!
 
 ### Addendum: Timeframe "Divergence" — A New Law of the First World
 
-![Divergence](images/Screenshot%202026-09-11%20105904.png)
+![Divergence](images/Screenshot%202026-09-12%20080937.png)
+
+It should be said that we have learned to eliminate the deviation in the signal’s timing compared to the actual one completely, just as we did with the forecast strength. This was achieved through the same superposition angle, through the formula in the second world of the mirror‑image and limbs — when constructing the signal, for the angle to be correct, all three animals must be constructed, even if the signal is single, based on only one animal. Thus, we can adapt to any timeframe, for example, the current average of 110 minutes, but it is most likely better to choose a smaller timeframe to physically obtain fewer deviations. Thus, it has been mathematically and scientifically proven that a future price curve is possible.
+
+![Divergence](images/Screenshot%202026-09-12%20081712.png)
 ![Divergence](images/Screenshot%202026-09-11%20105925.png)
 
 In the process of working on signal correction in the status bar, we discovered a previously unnoticed property of the system, one that turned out to be no less fundamental than the balance of the two worlds. We are talking about the divergence of timeframes — the discrepancy in trend durations between 4h, 1h, and 30m, obtained from the same ID. Until now we treated them as three projections of the same event, assuming they should coincide. It turned out they do not always coincide — and the magnitude of their divergence carries information that is present in none of them individually.
