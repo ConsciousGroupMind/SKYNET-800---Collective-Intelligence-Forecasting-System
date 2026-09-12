@@ -141,6 +141,8 @@ THE LESS TIMEFRAME IS SELECTED, THE LESS DEVIATION THERE WILL BE!
 
 ### Addendum: Timeframe "Divergence" — A New Law of the First World
 
+For an accurate angle, 3 animals must be included in the ID. We can see that signal 95 failed the check because it only has a dog and a Pallas’s cat, and no cat at all. Its ideal adjustment coefficient is 4.272, but since there’s no cat, the calculated coefficient is based on an incorrect angle.
+
 ![Divergence](images/Screenshot%202026-09-12%20080937.png)
 
 It should be said that we have learned to eliminate the deviation in the signal’s timing compared to the actual one completely, just as we did with the forecast strength. This was achieved through the same superposition angle, through the formula in the second world of the mirror‑image and limbs — when constructing the signal, for the angle to be correct, all three animals must be constructed, even if the signal is single, based on only one animal. Thus, we can adapt to any timeframe, for example, the current average of 110 minutes, but it is most likely better to choose a smaller timeframe to physically obtain fewer deviations. Thus, it has been mathematically and scientifically proven that a future price curve is possible.
