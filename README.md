@@ -147,6 +147,7 @@ For an accurate angle, 3 animals must be included in the ID. We can see that sig
 
 It should be said that we have learned to eliminate the deviation in the signal’s timing compared to the actual one completely, just as we did with the forecast strength. This was achieved through the same superposition angle, through the formula in the second world of the mirror‑image and limbs — when constructing the signal, for the angle to be correct, all three animals must be constructed, even if the signal is single, based on only one animal. Thus, we can adapt to any timeframe, for example, the current average of 110 minutes, but it is most likely better to choose a smaller timeframe to physically obtain fewer deviations. Thus, it has been mathematically and scientifically proven that a future price curve is possible.
 The most important thing is that whether the deviation is negative or positive doesn’t matter — the angular coefficient universally eliminates the deviation, bringing it close to zero, thanks to the ID’s own angle.
+Moreover, signal 95 is a single dog, while the angle is based on the collective superposition of three animals, always without exceptions — the choice of animals does not matter.
 
 ![Divergence](images/Screenshot%202026-09-12%20081712.png)
 ![Divergence](images/Screenshot%202026-09-11%20105925.png)
