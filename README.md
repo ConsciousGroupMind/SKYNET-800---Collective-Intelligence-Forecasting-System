@@ -184,6 +184,7 @@ This discovery inscribes divergence into the same logic already described in the
 
 ![scale](images/Screenshot%202026-09-13%20182154.png)
 ![scale](images/Screenshot%202026-09-13%20182242.png)
+![scale](images/Screenshot%202026-09-13%20183832.png)
 
 For two years the SKYNET-800 project relied on apophenic brute force — enumerating combinations of angles, quanta, group pairs, looking for coincidences. This phase was necessary: it produced the DCM formula, the two-angle model (32.33° local, 39.28° global), the second world of the looking-glass, and the pendulum constants 14 and 28. But brute force cannot be the foundation of a system that claims to be deterministic. A foundation must be an invariant — a number that any artificial intelligence, having seen it once, never has to search for again.
 
