@@ -242,7 +242,7 @@ The discovery of 0.2424 does not close the SKYNET-800 project. It opens the foun
 
 The equation does not need to be solved all at once. It collapses gradually, term by term, until what remains is only the scale and its projection. And the scale, once seen, is never searched for again. 0.2424 is not a discovery. It is what has always been there — in the ozone layer, in the honeycomb, in Gagarin's 108 minutes, in the cotangent of 22.5°, and now in the first world of SKYNET-800.
 
-![scale](images/Screenshot%202026-09-14%20080411.png)
+![scale](images/Screenshot%202026-09-14%20120239.png)
 
 By adjusting the scale angle according to the timeframe, the signal accuracy increases significantly, and this applies to all signals at once; I believe this can be reduced to zero.
 
