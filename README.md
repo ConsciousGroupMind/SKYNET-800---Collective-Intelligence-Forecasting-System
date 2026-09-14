@@ -138,7 +138,6 @@ In the future, automatic correction of such IDs based on the identified dependen
 THE LESS TIMEFRAME IS SELECTED, THE LESS DEVIATION THERE WILL BE!
 
 ![Deviation](images/Screenshot%202026-09-09%20204711.png)
-![Deviation](images/Screenshot%202026-09-09%20205642.png)
 
 
 ### Addendum: Timeframe "Divergence" — A New Law of the First World
