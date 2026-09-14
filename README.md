@@ -229,6 +229,8 @@ At the same time, the other constant rearranges. The angle that would take the p
 
 The same logic holds for the reference. In one day there are 1440 divided by 108 = 13.3333 — exactly the reference frequency. 108 minutes is the duration of Yuri Gagarin's first flight around the Earth, the first human being in orbit, April 12, 1961. Here 108 is not a historical accident. It is the temporal projection of the physical reference at full resolution: 1440 minutes divided by 13.3333 kHz equals 108. The number 108 has been known for millennia as the base of many traditions — from the 108 Upanishads to the 108 beads of the Buddhist mala to the 108 names of the divine. What was ritual became number, and the number was always the same: the first human spaceflight, the first frequency, and the first division of a day by an invariant.
 
+At the 106th minute, Gagarin’s spacecraft began to rotate physically, which caused the time to shift to 108 minutes.
+
 The quantum at 45 minutes is 0.2424 multiplied by 110 divided by 45, which is 0.5925. Not the same. But the principle is the same: a fixed gap between the grid average and the physical reference, projected onto whatever timeframe you choose.
 
 Adapting to Any Timeframe — Even When There Are No Minute Bars
