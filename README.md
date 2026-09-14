@@ -90,20 +90,7 @@ An **Event** is a record in the event journal (`EVENT_JOURNAL.json`) that links 
 We can see that the deviation in the event log for signals is about 300 minutes on average, but we already understand why — the thing is that the 3 timeframes we use average out to a 110‑minute timeframe. This is its characteristic feature (we are already working to take this into account and adjust to the timeframe); then the deviation will be reduced to zero.
 
  Detection of Systematic Timeframe Deviation (with Visual Evidence)
-During the analysis of rare anomalous IDs (107 and 151), a stable pattern was identified, clearly illustrated in the screenshots below.
-
-🖼 Screenshot 1 – ID 151 (Cat)
-The image shows the calculation for ID 151:
-
-Trend difference 4h→30m = –570 min (absolute value 570).
-
-The only significant group is 18, with an average deviation of –280 min.
-
-Calculated deviation: 570 + 280 = 850 min.
-
-Actual deviation from column 18: –938.4 min.
-
-Difference between calculated and actual: 88.4 min (explained by other factors).
+During the analysis of rare anomalous IDs (107), a stable pattern was identified, clearly illustrated in the screenshots below.
 
 🖼 Screenshot 2 – ID 107 (Dog)
 The image shows the calculation for ID 107:
