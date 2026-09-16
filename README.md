@@ -289,11 +289,11 @@ By adjusting the scale angle according to the timeframe, the signal accuracy inc
 **Total for ID 12, mirror and limbs together (from LEFT to RIGHT):**  
 38458 + 7364 = 45822 ÷ 2 = 22911.1
 
-[POWER](images/Screenshot%202026-09-16%20220836.png)
+![POWER](images/Screenshot%202026-09-16%20220836.png)
 
 MAY THE FORCE BE WITH US!
 
-[POWER](images/Screenshot%202026-09-16%20220922.png)
+![POWER](images/Screenshot%202026-09-16%20220922.png)
 
 **Coefficient for each animal (corresponding DCM component / sum of absolute differences):**
 - Cat: sum cat = 25691.25 min, sum of absolute differences = 3280.00 min, coefficient = 7.83
