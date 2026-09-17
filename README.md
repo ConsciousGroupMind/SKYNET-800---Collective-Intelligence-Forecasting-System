@@ -289,7 +289,7 @@ By adjusting the scale angle according to the timeframe, the signal accuracy inc
 **Total for ID 12, mirror and limbs together (from LEFT to RIGHT):**  
 38458 + 7364 = 45822 ÷ 2 = 22911.1
 
-![POWER](images/Screenshot%202026-09-16%20220836.png)
+![POWER](images/Screenshot%202026-09-17%20135708.png)
 
 MAY THE FORCE BE WITH US!
 
@@ -541,7 +541,10 @@ A dynamic system works with breathing constants — this is its precision, not i
 
 The system does not seek the ideal. It breathes around the ideal. And in this breathing — its precision, its universality, its life.
 
-![POWER](images/Screenshot%202026-09-16%20220922.png)
+![POWER](images/Screenshot%202026-09-17%20135834.png)
+![POWER](images/Screenshot%202026-09-17%20135923.png)
+![POWER](images/Screenshot%202026-09-17%20140025.png)
+
 
 **Coefficient for each animal (corresponding DCM component / sum of absolute differences):**
 - Cat: sum cat = 25691.25 min, sum of absolute differences = 3280.00 min, coefficient = 7.83
