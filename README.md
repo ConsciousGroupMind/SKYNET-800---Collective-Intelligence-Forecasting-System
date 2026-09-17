@@ -237,6 +237,28 @@ The equation does not need to be solved all at once. It collapses gradually, ter
 
 By adjusting the scale angle according to the timeframe, the signal accuracy increases significantly, and this applies to all signals at once; I believe this can be reduced to zero.
 
+![scale](images/Screenshot%202026-09-17%20222435.png)
+
+Target Deviation and Radian Deviation — Two Mirrors of the Same Event
+The status bar of every signal now displays two indicators of quality that do not affect the target — they read the character of the event.
+
+Radian deviation (откл.рад) equals ideal − 57.2958°. The ideal is a pure function of the angle: ideal = angle × ctg(angle). In the limit angle → 0, ideal → 57.2958° (one radian). Any deviation from this value means the angle is non-linear, and the signal sits off the ideal scale.
+
+Target deviation (Отклонение ТАРГЕТА, %) equals (miss / 110) × 100. It is shown only for single-animal IDs (Cat, Dog, Manul). It measures how far the actual extremum sits from the signal, in units of the average timeframe (110 minutes).
+
+The Mirror Between the Two Types of Signal
+Single animals (edges) have small angles, so their ideal stays close to 57.3° and the radian deviation is nearly zero. The angle is almost linear, and force amplification works cleanly. The only thing that can drift is time — and this is exactly what the target deviation percentage measures. General averages have large angles, so their ideal moves away from 57.3° and the radian deviation becomes significant. Their time is smoothed by averaging three animals, but the angle itself carries the deviation — force is clipped by angle / 35.10°, and the further the angle sits from the reference, the more the clip drifts.
+
+The mirror is structural, not accidental.
+
+Observed Values
+Across the currently tracked IDs the pattern is consistent. ID 95, a Dog at the pole with angle 0.00°, shows radian deviation −0.00° and target deviation 15.61% — it sits exactly on the ideal. ID 207, a Dog with angle 1.17°, shows radian deviation −0.01° and target deviation 242.18% — the angle is clean, but time has drifted heavily. ID 107, a Dog with angle 4.48°, shows radian deviation −0.12° and target deviation 5.27% — both indicators are small, the signal is clean. ID 24, a Dog with angle 47.26°, shows radian deviation −13.63° and target deviation 5.73% — despite being a single animal, its angle is large, and the radian deviation dominates. ID 78, a General average with angle 16.31°, shows radian deviation −1.56°. ID 12, a General average with angle 35.10°, shows radian deviation −7.36°.
+
+Two boundary cases stand out. ID 95, the pole, has radian deviation exactly zero — the signal sits on the ideal. ID 24, a Dog with angle 47.26°, shows that the mirror is not about the type of row but about the angle: a single animal can temporarily behave like a general average when its angle is large.
+
+We Observe, We Do Not Correct
+At this stage the indicators are purely diagnostic. The target is not adjusted by either of them — this is a deliberate choice. The pattern is recorded, not the formula. When a statistically meaningful number of edges and main signals has accumulated, the exact correction formula will emerge from the data — just as the coefficient ctg(22.5°) = 2.414 emerged for the first world, and 0.2424 emerged as the scale quantum. We do not force the equation. The equation collapses by itself when enough evidence accumulates.
+
 ### Second World Force Calculation for ID 12
 
 ---
