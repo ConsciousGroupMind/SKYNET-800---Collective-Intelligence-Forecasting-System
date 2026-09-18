@@ -259,6 +259,9 @@ Two boundary cases stand out. ID 95, the pole, has radian deviation exactly zero
 We Observe, We Do Not Correct
 At this stage the indicators are purely diagnostic. The target is not adjusted by either of them — this is a deliberate choice. The pattern is recorded, not the formula. When a statistically meaningful number of edges and main signals has accumulated, the exact correction formula will emerge from the data — just as the coefficient ctg(22.5°) = 2.414 emerged for the first world, and 0.2424 emerged as the scale quantum. We do not force the equation. The equation collapses by itself when enough evidence accumulates.
 
+![scale](images/Screenshot%202026-09-18%20101710.png)
+
+
 ### Second World Force Calculation for ID 12
 
 ---
