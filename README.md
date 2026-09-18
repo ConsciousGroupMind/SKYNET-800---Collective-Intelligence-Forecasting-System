@@ -259,7 +259,89 @@ Two boundary cases stand out. ID 95, the pole, has radian deviation exactly zero
 We Observe, We Do Not Correct
 At this stage the indicators are purely diagnostic. The target is not adjusted by either of them — this is a deliberate choice. The pattern is recorded, not the formula. When a statistically meaningful number of edges and main signals has accumulated, the exact correction formula will emerge from the data — just as the coefficient ctg(22.5°) = 2.414 emerged for the first world, and 0.2424 emerged as the scale quantum. We do not force the equation. The equation collapses by itself when enough evidence accumulates.
 
-![scale](images/Screenshot%202026-09-18%20101710.png)
+![scale](images/Screenshot%202026-09-19%20070449.png)
+
+## Lag display fix for low-angle signals (status bar)
+
+### Context
+
+When a signal's angle is below 1 degree (the "edge" regime), the
+second-world correction (k_расчёт multiplied by sig) is blocked — you
+cannot divide by a near-zero angle. The status bar therefore shows an
+additional line warning the user that the signal's time is unreliable,
+and prints the expected lag along with the resulting timestamp
+(signal + lag). The signal itself is NOT modified; this is a display-only
+estimate.
+
+### Two cases
+
+The lag calculation branches on whether the signal has a non-zero
+signature (sig = 570 − div_tf).
+
+Case 1 — sig equals zero (pure edge, e.g. ID 203). The whole first-world
+divergence lives in fact. The 0.2424 quantum acts as a reducer: it
+compresses the lag toward the real extremum. The formula is: lag equals
+the absolute value of fact plus new_minutes (0.2424). new_minutes is
+taken with its natural sign as returned by _get_new_minutes_for_id,
+which is typically negative — subtracting from the absolute value of
+fact. Example on ID 203: 560 plus negative 61.9 equals 498.1 minutes,
+while the real miss was plus 526.7 minutes. Residual error is about 29
+minutes on a 500-plus minute horizon.
+
+Case 2 — sig is not zero (edge with signature, e.g. ID 209). Part of the
+divergence has settled in the second world, so fact alone is incomplete.
+The signal must be scaled by k_расчёт first, then the 0.2424 quantum is
+added — with the opposite sign to what the helper function returns. The
+formula is: lag equals the absolute value of fact multiplied by
+k_расчёт, plus the absolute value of new_minutes (0.2424). Example on
+ID 209: 780 multiplied by 1.178 plus 86.2 equals 1005.0 minutes, while
+the real miss was plus 1020.8 minutes. Residual error is about 16
+minutes on a 1000-plus minute horizon.
+
+### Why the sign flips
+
+The quantum 0.2424 is a balancer: it always pushes the estimate toward
+the real extremum. Which direction it needs to push depends on whether
+fact has already overshot or undershot the real miss. In the pure-edge
+case, fact is close to the real miss and the quantum compresses it
+(natural sign, negative). In the edge-with-signature case, fact alone is
+too small because a piece of it sits in the second world. After scaling
+by k_расчёт, the estimate is still short of the real miss, so the
+quantum must extend it — the sign is inverted.
+
+The inversion is not a hack and not empirical fitting. It follows from
+the combination of two structural conditions. First, angle is below 1
+degree, which disables the force-correction branch. Second, sig is not
+zero, which means fact is by construction incomplete. When both hold at
+the same time, the system cannot close the gap through its normal
+channels and requires the manual double correction.
+
+### Rules
+
+For an angle below 1 degree and sig equal to zero, the lag is the
+absolute value of fact plus new_minutes taken with its natural sign. For
+an angle below 1 degree and sig not equal to zero, the lag is the
+absolute value of fact multiplied by k_расчёт, plus the absolute value of
+new_minutes (sign inverted). For an angle of 1 degree or higher, no lag
+line is printed and the normal pipeline runs unchanged.
+
+### Scope
+
+The change lives entirely in _update_corrected_signal_status. It affects
+display only. corrected_signal_time, the target price, and the force
+calculation are not touched. When sig equals zero, behaviour is unchanged
+from before this fix. When the angle is 1 degree or higher, the lag line
+is not printed at all.
+
+### Status
+
+Working on IDs 203 and 209 with residual error under about 30 minutes on
+500 to 1000 minute horizons. Will be revisited once more sig-non-zero
+edge signals are collected. If the sign rule holds across several IDs, it
+can be promoted from empirical to structural and applied elsewhere in the
+pipeline.
+
+![scale](images/Screenshot%202026-09-19%20070545.png)
 
 
 ### Second World Force Calculation for ID 12
