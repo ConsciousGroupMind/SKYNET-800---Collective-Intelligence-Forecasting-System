@@ -288,42 +288,24 @@ fact. Example on ID 203: 560 plus negative 61.9 equals 498.1 minutes,
 while the real miss was plus 526.7 minutes. Residual error is about 29
 minutes on a 500-plus minute horizon.
 
-Case 2 — sig is not zero (edge with signature, e.g. ID 209). Part of the
-divergence has settled in the second world, so fact alone is incomplete.
-The signal must be scaled by k_расчёт first, then the 0.2424 quantum is
-added — with the opposite sign to what the helper function returns. The
-formula is: lag equals the absolute value of fact multiplied by
-k_расчёт, plus the absolute value of new_minutes (0.2424). Example on
-ID 209: 780 multiplied by 1.178 plus 86.2 equals 1005.0 minutes, while
-the real miss was plus 1020.8 minutes. Residual error is about 16
-minutes on a 1000-plus minute horizon.
-
-### Why the sign flips
-
-The quantum 0.2424 is a balancer: it always pushes the estimate toward
-the real extremum. Which direction it needs to push depends on whether
-fact has already overshot or undershot the real miss. In the pure-edge
-case, fact is close to the real miss and the quantum compresses it
-(natural sign, negative). In the edge-with-signature case, fact alone is
-too small because a piece of it sits in the second world. After scaling
-by k_расчёт, the estimate is still short of the real miss, so the
-quantum must extend it — the sign is inverted.
-
-The inversion is not a hack and not empirical fitting. It follows from
-the combination of two structural conditions. First, angle is below 1
-degree, which disables the force-correction branch. Second, sig is not
-zero, which means fact is by construction incomplete. When both hold at
-the same time, the system cannot close the gap through its normal
-channels and requires the manual double correction.
+Case 2 — sig is not zero (edge with signature). Part of the divergence
+has settled in the second world, so fact alone is incomplete. The signal
+must be scaled by k_расчёт first, then the 0.2424 quantum is added, taken
+with its natural sign as returned by _get_new_minutes_for_id. The formula
+is: lag equals the absolute value of fact multiplied by k_расчёт, plus
+new_minutes. This case is under active investigation — the residual
+error is larger than in Case 1, and more edge signals with non-zero
+signature need to be collected before the behaviour can be fully
+characterised.
 
 ### Rules
 
 For an angle below 1 degree and sig equal to zero, the lag is the
 absolute value of fact plus new_minutes taken with its natural sign. For
 an angle below 1 degree and sig not equal to zero, the lag is the
-absolute value of fact multiplied by k_расчёт, plus the absolute value of
-new_minutes (sign inverted). For an angle of 1 degree or higher, no lag
-line is printed and the normal pipeline runs unchanged.
+absolute value of fact multiplied by k_расчёт, plus new_minutes taken
+with its natural sign. For an angle of 1 degree or higher, no lag line is
+printed and the normal pipeline runs unchanged.
 
 ### Scope
 
@@ -335,11 +317,13 @@ is not printed at all.
 
 ### Status
 
-Working on IDs 203 and 209 with residual error under about 30 minutes on
-500 to 1000 minute horizons. Will be revisited once more sig-non-zero
-edge signals are collected. If the sign rule holds across several IDs, it
-can be promoted from empirical to structural and applied elsewhere in the
-pipeline.
+Working on pure-edge signals (sig equal to zero) with residual error
+under about 30 minutes on 500-plus minute horizons. The non-zero
+signature branch is kept as an honest estimate and will be refined once
+more samples are available. No sign manipulation is applied — the
+formula returns the natural sign of each component, so any residual
+error remains visible for diagnosis rather than being hidden behind
+empirical adjustments.
 
 
 ### Second World Force Calculation for ID 12
