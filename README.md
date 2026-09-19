@@ -341,8 +341,6 @@ edge signals are collected. If the sign rule holds across several IDs, it
 can be promoted from empirical to structural and applied elsewhere in the
 pipeline.
 
-![scale](images/Screenshot%202026-09-19%20070545.png)
-
 
 ### Second World Force Calculation for ID 12
 
