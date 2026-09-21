@@ -237,7 +237,7 @@ The equation does not need to be solved all at once. It collapses gradually, ter
 
 By adjusting the scale angle according to the timeframe, the signal accuracy increases significantly, and this applies to all signals at once; I believe this can be reduced to zero.
 
-![scale](images/Screenshot%202026-09-17%20222435.png)
+![scale](images/Screenshot%202026-09-21%20121129.png)
 
 Target Deviation and Radian Deviation — Two Mirrors of the Same Event
 The status bar of every signal now displays two indicators of quality that do not affect the target — they read the character of the event.
