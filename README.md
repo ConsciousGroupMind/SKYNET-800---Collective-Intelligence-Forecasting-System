@@ -328,8 +328,79 @@ empirical adjustments.
 
 ![scale](images/Screenshot%202026-09-20%20155454.png)
 ![scale](images/Screenshot%202026-09-20%20160649.png)
-![scale](images/Screenshot%202026-09-20%20160728.png)
+![scale](images/Screenshot%202026-09-21%20134627.png)
 ![scale](images/Screenshot%202026-09-20%20155230.png)
+
+Addendum: The Daughter Quantum 0.0909 and the Two Directions of Breathing
+Alongside the main quantum 0.2424 (which sets the regime of a signal), the system carries a smaller, independent quantum: 0.0909 = 1/11 = 3/33. It does not replace 0.2424 — it coexists with it. Together they form a clean identity:
+
+text
+0.2424 + 0.0909 = 11/33 = 1/3
+That is the same triple that appears in the DCM formula, in the K_angle / K_IDEAL relation, and in the ideal scale of the general average. But now we can see what the triple is made of: it is the sum of the working quantum 8/33 and the daughter quantum 3/33. The denominator 33 = 3 × 11, and 11 comes directly from the 110-minute grid (1440 / 110 = 144/11). The daughter quantum is not fitted — it is a structural consequence of the grid itself.
+
+Where 0.0909 Appears
+The daughter quantum shows up in the arithmetic of polar signals — those with angle < 1°, where the entire uncertainty is displaced into time. For any such signal:
+
+text
+miss (minutes)          = |actual extremum − signal time|
+Откл.ТАРГЕТА (%)        = (miss / 110) × 100 = miss × 10/11
+difference              = miss − Откл.ТАРГЕТА = miss / 11
+ratio = difference / miss = 1/11 = 0.0909
+The ratio always equals 0.0909. This identity holds for every polar signal without exception — it is a consequence of the 110-minute base, not of any particular ID. What separates a clean target from a murky one is not the ratio itself, but the sign of k_расчёт, which determines the direction in which the daughter quantum is discharged.
+
+ID 95 — Breathing into Time, Target Clean
+ID 95 (Dog, BUY) has k_расчёт = +0.707, positive. Its arithmetic:
+
+text
+miss                = 1090.90 min
+Откл.ТАРГЕТА        = 991.73 %
+difference          = 99.17 min ≈ 90 minutes
+ratio               = 99.17 / 1090.90 = 0.0909 = 1/11
+The 90 minutes of difference are not an error — they are the free remainder the system deliberately leaves open. And because k_расчёт is positive, this remainder is discharged into the axis of time, not the axis of price. The lag is +998.8 minutes: the signal is shifted forward by roughly sixteen hours, and the price arrives exactly where it was aimed — 84339.46. The target is executed precisely, without overflow and without shortfall. It is clean "like a baby's tear", as the operator's criterion puts it: the price does not need to be smeared by force, because the whole uncertainty has already been spent on hours.
+
+ID 209 — Breathing into Price, Target Clipped
+ID 209 (Cat, SELL) has k_расчёт = −0.473, negative. Its arithmetic:
+
+text
+miss                = 226.30 min
+Откл.ТАРГЕТА        = 205.74 %
+difference          = 20.56 min
+ratio               = 20.56 / 226.30 = 0.0909 = 1/11
+The ratio is the same — 0.0909, the same daughter quantum, correctly separated from the main 0.2424. But because k_расчёт is negative, the daughter quantum is discharged into the axis of price. The consequences are visible immediately: the target 78838.51 was not reached — the price only went halfway — and then a perekhay followed, an upward overshoot that clipped the target from the other side. The signal itself was correct (the miss of +226.3 minutes is close to the anticipated value), but the price did not travel all the way to the aim.
+
+This is not a calculation error. It is a different direction of breathing. Where ID 95 spends its uncertainty on time, ID 209 spends it on price. The daughter quantum 0.0909 in both cases separated cleanly from the main quantum 0.2424 — the arithmetic is the same. What differs is the axis onto which the remainder is projected.
+
+The Direction of Breathing as a Predictive Instrument
+The sign of k_расчёт therefore becomes a predictive indicator of how a polar signal will behave in practice:
+
+k_расчёт > 0 — the daughter quantum discharges into time. The signal shifts along the clock, the price arrives exactly at the target. ID 95: lag +998.8 min, target 84339.46 fully executed.
+
+k_расчёт < 0 — the daughter quantum discharges into price. The signal's clock is nearly still, but the target is smeared: part of it becomes a shortfall, part becomes an overshoot. ID 209: shortfall of roughly 3000 units before the perekhay.
+
+This gives a new layer of diagnosis. Previously the status bar reported only the regime (A / B / C) and the lag. Now, for polar signals, it also reports the target purity — the computed difference (miss − Откл.ТАРГЕТА), its ratio to miss (which should equal 0.0909), and the direction of breathing derived from the sign of k_расчёт:
+
+text
+чистота таргета [чистый]: miss=1090.90, Откл.ТАРГЕТА=991.73%,
+                          разница=99.17 мин, ratio=0.0909 (1/11),
+                          дыхание→время (k=+0.707)   ← ID 95
+text
+чистота таргета [мутный]: miss=226.30, Откл.ТАРГЕТА=205.74%,
+                          разница=20.56 мин, ratio=0.0909 (1/11),
+                          дыхание→цена (k=-0.473)     ← ID 209
+Why 0.0909 Matters
+Until now, the system worked with one quantum, 0.2424, and one dimension of error. The discovery of 0.0909 as an independent quantum adds a second dimension: not only how much the signal errs, but where the error goes. The main quantum sets the regime. The daughter quantum sets the purity of execution within that regime. And the sign of k_расчёт sets the direction — time or price.
+
+Three numbers, then, define a polar signal completely:
+
+0.2424 — its regime (how the error is sized).
+
+0.0909 — its purity (how cleanly the daughter quantum separates).
+
+sign(k_расчёт) — its direction (where the error is discharged: time or price).
+
+IDs 95 and 209 together form a closed demonstration. Same quantum, same identity, same 1/11 ratio — opposite signs, opposite outcomes. In 95 the target is a tear; in 209 the target is a hem. The system does not favour one over the other. It breathes both ways, and now we can see which way each signal will breathe before it does.
+
+![scale](images/Screenshot%202026-09-21%20134807.png)
 
 ## Addendum: The Three Modes of Signal Correction — A Closed Case Study
 
