@@ -496,6 +496,21 @@ This is why the division into three regimes is not fitting. When we divided the 
 
 This is NeoDal: not imposing a formula on the system, but hearing the formula by which the system already breathes.
 
+![scale](images/Screenshot%202026-09-21%20162537.png)
+![scale](images/Screenshot%202026-09-21%20162608.png)
+
+Addendum: Unmuting — Removing the Inflation, Not Correcting the Signal
+
+Every murky signal (k_расчёт < 0) carries an inflation: a number in its Force or in its Target that is larger than what the geometry of the event can support. Unmuting is the operation that removes this inflation. It does not change the signal. It reads where the inflation sits, divides it by |k_расчёт|, and — depending on the regime — either returns the quantum 0.2424 to the Force or leaves the Target alone.
+
+The direction of unmuting is determined by the angle. If the angle is below 1°, the signal sits in the polar regime, where geometry does not work — tangent and arc are indistinguishable, and the entire uncertainty is displaced into time. Here the quantum 0.2424 has not been spent on Δ and percent; it stayed in the Force. Unmuting therefore returns the quantum explicitly: Force × |k| × 1.2424. The factor 1.2424 is not a multiplier in the ordinary sense — it is the addition of the quantum written as 1 + 0.2424. And from the unmuted Force a new Target is computed, because in the polar regime the Target is a derivative of the Force and cannot be unmuted independently. ID 209 (Cat, SELL, angle 0.46°, k = −0.473) shows this branch cleanly: Force 3099.84 × 0.473 = 1464.93, then × 1.2424 = 1820.03, and the new Target 80118.33 follows from the unmuted Force. The old Target 78838.51 was inflated; the new one is what the geometry of the polar signal can actually support.
+
+If the angle is 1° or higher, the signal sits in a geometric regime where Δ and percent do the work. Here the quantum 0.2424 has already been spent — it is dissolved inside the division by Δ or the compression of the percentage. Unmuting therefore does not return the quantum; it only removes the inflation from the Target+ by dividing it by |k_расчёт|. The factor is 1, meaning the "plus" is zero: nothing is added, because there is nothing left to add. ID 207 (Dog, BUY, angle 1.17°, k = −0.483) shows this branch: Target+ 175674.95 × 0.483 = 84813.60, without any multiplication by 1.2424. The old Target 175674.95 was the inflated projection; the new 84813.60 is the geometry's honest answer.
+
+So the rule is one sentence long: add the quantum when unmuting the Force, do not add it when unmuting the Target+. The 1.2424 is a plus sign for the polar regime and an empty plus for the geometric one. The quantum lives in exactly one place in any given signal, and unmuting puts it back where it belongs or leaves it where it already is.
+
+Both branches close without free parameters. In each case the number that appears after unmuting is determined entirely by quantities already present in the status bar: the angle, the sign of k_расчёт, the Force, the Target+, and the fixed quantum 0.2424. No search, no fit, no second pass. The system does not correct the signal — it removes what was never part of it.
+
 ### Second World Force Calculation for ID 12
 
 ---
