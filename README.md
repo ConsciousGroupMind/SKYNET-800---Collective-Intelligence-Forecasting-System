@@ -6,12 +6,6 @@ We are not writing "temporary code" — we are building the foundation for a **f
 We are a team — and a single developer — who decided to build Skynet from scratch. Not the one from the movie, but a real tool for time analysis. We are not joking, we are not mystifying. We are building a system that works.
 ---
 
-### 🔄 Release Cycle
-
-The code is released **on the 1st of each month**. This is our strict rule — we release a new version on schedule, even if changes are small. This way we maintain rhythm and predictability of development.
-
----
-
 ### 🗄️ Migration to ClickHouse
 
 We are fully migrating all data storage and processing to **ClickHouse** — a columnar DBMS optimized for analytical queries.
