@@ -1,0 +1,103 @@
+{
+  "rules": [
+    {
+      "src_group": 5,
+      "dst_group": 5,
+      "src_animal": "Собака",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 6,
+      "dst_group": 6,
+      "src_animal": "Собака",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 11,
+      "dst_group": 11,
+      "src_animal": "Собака",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 12,
+      "dst_group": 12,
+      "src_animal": "Собака",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 18,
+      "dst_group": 18,
+      "src_animal": "Собака",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 1,
+      "dst_group": 13,
+      "src_animal": "Собака",
+      "dst_animal": "Собака",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 2,
+      "dst_group": 8,
+      "src_animal": "Собака",
+      "dst_animal": "Собака",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 6,
+      "dst_group": 12,
+      "src_animal": "Собака",
+      "dst_animal": "Собака",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 5,
+      "dst_group": 18,
+      "src_animal": "Собака",
+      "dst_animal": "Собака",
+      "shift_bars": 2
+    },
+    {
+      "src_group": 3,
+      "dst_group": 15,
+      "src_animal": "Манул",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 3,
+      "dst_group": 10,
+      "src_animal": "Манул",
+      "dst_animal": "Манул",
+      "shift_bars": 2
+    },
+    {
+      "src_group": 2,
+      "dst_group": 8,
+      "src_animal": "Кот",
+      "dst_animal": "Кот",
+      "shift_bars": 0
+    },
+    {
+      "src_group": 5,
+      "dst_group": 2,
+      "src_animal": "Собака",
+      "dst_animal": "Собака",
+      "shift_bars": 2
+    },
+    {
+      "src_group": 17,
+      "dst_group": 17,
+      "src_animal": "Собака",
+      "dst_animal": "Манул",
+      "shift_bars": 0
+    }
+  ],
+  "auto_sync": true
+}
