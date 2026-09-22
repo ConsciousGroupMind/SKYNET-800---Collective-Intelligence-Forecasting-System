@@ -21,12 +21,6 @@ The code is written in a chat with **DeepSeek** — this adds complexity to the 
 
 ---
 
-### 📌 There Will Be Several Alpha Versions
-
-We plan to release several alpha releases, gradually increasing functionality. Each new alpha will bring us closer to a stable beta version.
-
----
-
 ## Quick Start
 
 **⚠️ CRITICAL: This project runs ONLY on Python 3.11 and ClickHouse 18.16.1.**
