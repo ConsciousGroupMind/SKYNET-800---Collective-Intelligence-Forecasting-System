@@ -522,7 +522,9 @@ The practical reading is that a signal is not a single prediction but a coordina
 
 Everything above rests on two numbers and no others. The average timeframe 110 minutes fixes the grid. The pendulum 13.3333 fixes the transmission. Every angle, every ideal, every correction, every ratio, and every corrected target in this addendum was obtained by algebraic operations on these two numbers combined with the local quantities of the signal (fact, k_расчёт, div_tf, div_pairs, direction). No fitted coefficient was required at any point. The only threshold used — angle below 1° for the polar branch, deficit below 1° for the transitional branch — is the radian expressed in degrees, and it is not tuned. It is the natural boundary where tangent and arc become indistinguishable. On one side of that boundary the correction must be applied through the force. On the other side it must be applied through the deficit. There is no third option and no free parameter. The fact that the corrections for 95 and 107 land within a few units of the reference target of 12, when they use entirely different branches of the same rule, is the proof that the rule is not fitted. It was derived from the scale, and the scale — not π, not φ, not any ideal angle — is what the system trusts.
 
-![scale](images/Screenshot%202026-09-24%20113142.png)
+![scale](images/Screenshot%202026-09-24%20173030.png)
+
+SIGNAL 169 DIDN’T HIT THE SHADOWS BECAUSE THE SECOND WORLD IS VERY DISTORTED, AND EVEN WITH PINGS, IT SENDS A REPEAT SIGNAL BEFORE THE TARGET IS EVEN EXECUTED — BUT THE TARGET IS STILL EXECUTED — AND IN THIS CASE, EVERYTHING WORKS OUT ACCURATELY ACCORDING TO THE PREDICTION. THE EXTREMUM TURNED OUT SLIGHTLY LOWER.
 
 On the Multiplicity of Second-World Constructions and the Role of Pings in Foreseeing Character
 
