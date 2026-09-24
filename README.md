@@ -498,7 +498,6 @@ Both branches close without free parameters. In each case the number that appear
 
 ![scale](images/Screenshot%202026-09-22%20113225.png)
 ![scale](images/Screenshot%202026-09-22%20113326.png)
-![scale](images/Screenshot%202026-09-22%20114601.png)
 
 Addendum: Two Observers, One Point — How 95, 107, 12 and 169 Close the Equation
 
