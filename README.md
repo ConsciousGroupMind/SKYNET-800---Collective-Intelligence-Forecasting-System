@@ -534,6 +534,9 @@ It should be understood that the construction of the second world is rarely a si
 
 ### THE CHECK IS VERY SIMPLE: IF THE CONSTRUCTION IS CORRECT, AND THERE IS ALWAYS ONLY ONE OPTION, THEN IF THE ANGLE IS GREATER THAN 1, THEN THE RATIO SHOULD BE GREATER THAN 2, AND VICE VERSA, IF THE ANGLE IS LESS THAN 1, THEN THE RATIO SHOULD BE ABOUT 1. FOR EXAMPLE, SIGNAL 169, WHICH IS EXPECTED ON THE 28TH AS ITS LAST CHANCE, IF IT DOES NOT WORK AT ALL IN TIME, THEN THIS MEANS THAT ITS RATIO WILL NOT BE EQUAL TO 1 - THEN THE CONSTRUCTION VARIATION, WHICH WAS THE ONLY CORRECT ONE BEFORE IT (ALTHOUGH IT HAD A LOWER TARGET, BUT EVEN BEFORE EXECUTION, DUE TO SMEARING, THE SIGNAL EXTREME WAS EXCEEDED).
 
+![scale](images/Screenshot%202026-09-26%20064836.png)
+
+According to the principle of gyroscopic precession, the lag takes on the full stabilization function, because in this configuration, 169 AIDI proved to be the most suitable in terms of risk and ratio, although the lag still indicates how significant the “spread” is here.
 
 Addendum: Smearing, the Second-World Ping, and the Two Leaders of Balance
 
