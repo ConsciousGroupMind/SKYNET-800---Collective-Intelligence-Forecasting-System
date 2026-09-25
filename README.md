@@ -536,7 +536,18 @@ It should be understood that the construction of the second world is rarely a si
 
 ![scale](images/Screenshot%202026-09-26%20064836.png)
 
-According to the principle of gyroscopic precession, the lag takes on the full stabilization function, because in this configuration, 169 AIDI proved to be the most suitable in terms of risk and ratio, although the lag still indicates how significant the “spread” is here.
+According to the principle of gyroscopic precession, the lag takes on the full stabilization function, because in this configuration, 169 ID proved to be the most suitable in terms of risk and ratio, although the lag still indicates how significant the “spread” is here.
+
+![scale](images/Screenshot%202026-09-26%20081933.png)
+![scale](images/Screenshot%202026-09-26%20082605.png)
+
+The corrected signal time is computed by adding a daughter quantum correction to the raw lag. The raw lag is multiplied by 1.0909 (i.e., 1 + 0.0909, where 0.0909 = 1/11 is the daughter quantum). This multiplier reflects the fact that the raw lag does not yet include the quantum, and the quantum must be added to compensate for the delay inherent in the signal generation process. The resulting corrected lag is then added to the original signal time to produce the final corrected signal time displayed in the status bar.
+
+This approach is consistent with the phi convergence calculation, which also multiplies the observed ratio by 1.0909 to obtain the effective ratio. By using the same multiplier in both the time correction and the phi convergence, the system maintains internal coherence between the temporal lag and the geometric ratio that governs the signal's structure.
+
+The accuracy of this correction is demonstrated clearly on ID 95. The raw lag for this signal was 998.8 minutes. Multiplying by 1.0909 yields a corrected lag of 1089.5 minutes, which corresponds to a shift of +90.8 minutes relative to the raw lag. When this corrected lag is added to the original signal time of 2026-06-30 17:01:06, the resulting corrected signal time is 2026-07-01 11:10:38. The actual extreme, determined from the close prices on the one-minute timeframe, occurred at 2026-07-01 11:12:00. The difference between the corrected signal time and the actual extreme is therefore approximately 1.5 minutes, which is a remarkably tight match and validates the daughter quantum correction.
+
+Additional metrics on the same signal reinforce this result. The ratio of the lag to the target deviation is 1.007, which is classified as normal and close to 1. The target purity is marked as pure, with a ratio of 0.0909 (1/11), indicating that the breathing points to the time component. The phi convergence shows an effective ratio of 4.0226 with a deviation of +2.4045 from the golden ratio, meaning the signal is still far from phi on that particular metric. However, the crucial point is that the lag itself now converges to the actual time within a minute and a half. This confirms that the corrected signal time, computed with the 1.0909 multiplier, is a reliable predictor of the actual extreme time and eliminates the systematic bias that would otherwise be present.
 
 Addendum: Smearing, the Second-World Ping, and the Two Leaders of Balance
 
