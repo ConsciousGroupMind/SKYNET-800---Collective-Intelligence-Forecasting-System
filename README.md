@@ -539,7 +539,7 @@ It should be understood that the construction of the second world is rarely a si
 According to the principle of gyroscopic precession, the lag takes on the full stabilization function, because in this configuration, 169 ID proved to be the most suitable in terms of risk and ratio, although the lag still indicates how significant the “spread” is here.
 
 ![scale](images/Screenshot%202026-09-26%20084532.png)
-![scale](images/Screenshot%202026-09-26%20084604.png)
+![scale](images/Screenshot%202026-09-26%20091634.png)
 
 The corrected signal time is computed by adding a daughter quantum correction to the raw lag. The raw lag is multiplied by 1.0909 (i.e., 1 + 0.0909, where 0.0909 = 1/11 is the daughter quantum). This multiplier reflects the fact that the raw lag does not yet include the quantum, and the quantum must be added to compensate for the delay inherent in the signal generation process. The resulting corrected lag is then added to the original signal time to produce the final corrected signal time displayed in the status bar.
 
