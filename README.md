@@ -531,6 +531,8 @@ It should be understood that the construction of the second world is rarely a si
 
 ![scale](images/Screenshot%202026-09-25%20060145.png)
 
+THE CHECK IS VERY SIMPLE: IF THE CONSTRUCTION IS CORRECT, AND THERE IS ALWAYS ONLY ONE OPTION, THEN IF THE ANGLE IS GREATER THAN 1, THEN THE RATIO SHOULD BE GREATER THAN 2, AND VICE VERSA, IF THE ANGLE IS LESS THAN 1, THEN THE RATIO SHOULD BE ABOUT 1. FOR EXAMPLE, SIGNAL 169, WHICH IS EXPECTED ON THE 28TH AS ITS LAST CHANCE, IF IT DOES NOT WORK AT ALL IN TIME, THEN THIS MEANS THAT ITS RATIO WILL NOT BE EQUAL TO 1 - THEN THE CONSTRUCTION VARIATION, WHICH WAS THE ONLY CORRECT ONE BEFORE IT (ALTHOUGH IT HAD A LOWER TARGET, BUT EVEN BEFORE EXECUTION, DUE TO SMEARING, THE SIGNAL WAS OVERLOADED).
+
 Addendum: Smearing, the Second-World Ping, and the Two Leaders of Balance
 
 There is a property of the second world that we have only now learned to name, and it changes the way a signal must be read. Until recently we treated every signal as a single point: it fires at a specific moment, the target is a specific level, and the miss between signal and extremum is a specific number of minutes. That picture is correct for most signals, but it is not universal. Under certain conditions — and those conditions are always external to the market itself — the second world does not deliver a point. It delivers a smear. The structure extends over a wide interval of time, and the extremum that the signal was aiming at is not a single bar but a plateau of bars, each slightly different from the others, none of them the true peak. This is what we call smearing, and it is the subject of this addendum.
