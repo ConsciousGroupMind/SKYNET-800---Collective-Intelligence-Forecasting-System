@@ -482,7 +482,7 @@ This is why the division into three regimes is not fitting. When we divided the 
 This is NeoDal: not imposing a formula on the system, but hearing the formula by which the system already breathes.
 
 ![scale](images/Screenshot%202026-09-21%20162537.png)
-![scale](images/Screenshot%202026-09-21%20162608.png)
+![scale](images/Screenshot%202026-09-27%20065014.png)
 
 Addendum: Unmuting — Removing the Inflation, Not Correcting the Signal
 
