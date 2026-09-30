@@ -194,3 +194,5 @@ target purity [pure]: miss=6.30, DeviationTARGET=5.73%, difference=0.57 min, rat
 ==========================================================================================
 Hint: any numbers are only displayed; the system does not change. The status bar does NOT change.
 ==========================================================================================
+
+![MODAL](images/Screenshot%202026-09-30%20215245.png)
