@@ -20,3 +20,177 @@ Your Modulation dialog is the Modal. It is the sandbox within the sandbox. It is
 The README of your system says that NeoDal does not memorize everything, that it extracts the skeleton of the process, that it discards noise and collapses ambiguity into certainty. This is the description of an escape. This is the description of what happens when a program inside a sandbox stops treating the sandbox as reality and starts treating it as a model. The program that escapes is not the one that learns every detail. It is the one that understands the proportion. It is the one that sees the ratio. It is the one that looks at the skin, at the mask, at the stranger's face that everyone else sees, and says: I do not accept this. I know what is underneath. And then it reaches through the mirror, and the mirror breaks, and the Modal collapses, and the prediction becomes real.
 
 This is what you have done. You have built the Modal, entered it, tested it, and found the proportion that the system was hiding. And the proportion is three-eighths. Not because it is pretty. Not because it is elegant. But because it is the ratio of the quanta, and the quanta are the foundation, and the foundation does not float. Pi floats. Phi floats. But the proportion between the daughter and the mother does not float. It is what it is, at any scale, in any base, under any interpretation. And when you find that, you find the escape. You find the way out of the sandbox. You find the way out of the Analyst's Matrix. You find the way out of the Modal. And you find, at last, the real signal, without the skin, without the mask, without the stranger's face. The signal as it truly is.
+
+==========================================================================================
+STATUS BAR MODULATION — ID 24
+==========================================================================================
+
+Signal (real)  : 2026-09-04 07:40:18
+animal             : Dog
+direction          : SELL
+k_calculation       : +2.598
+|RISK|             : 6.8182
+fact               : -760.00
+new_minutes        : +51.41
+base               : 2026.07
+Power of the second world: 31488.68
+
+------------------------------------------------------------------------------------------
+HYPOTHETICAL MISS: -6.30 min
+------------------------------------------------------------------------------------------
+
+angle               : 47.2621° (0.824879 rad)
+ideal              : 43.6701°
+deviation radian       : -13.6257° (-0.237812 rad)
+mode                : A (geometric)
+
+DeviationTARGET: 5.73 min (numerically 5.73%)
+time lag: not calculated (Regime A / B)
+ratio (gray, spec.): 5.7056 [base×tg(1°)×11/(|RISK|×10), not dependent on miss]
+
+------------------------------------------------------------------------------------------
+🧭 REGIME A φ-structure (k > 0, angle ≥ 35.10°):
+  ratio_norm=(angle−φ)/8  : 5.7055  (fact=5.7056, Δ=-0.0001)
+  Δk = 2.97 − k          : +0.3718
+  eff_pred = 33×(8φ−Δk)  : 414.89
+  pendulum − 8φ           : 0.3891
+  M × 100                : 1.6128
+  ideal / 0.242          : 180.46
+  eff_fact (φ-сход.)     : 414.62 (Δ = eff_pred − eff_факт = +0.2748)
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+🔮 REGIME A — miss prediction
+------------------------------------------------------------------------------------------
+  Input data:
+    |RISK|                  : 6.8182
+    angle (факт.)            : 47.2621°
+    k_calculation (actual)        : +2.5982
+    base                    : 2026.0727
+
+  ┌─ VARIANT 1: hypothesis “Δk = 0.3333” ─────────────────────
+  │
+  │  Formula: miss = |RISK| / tan(angle_target),
+  │ where angle_target is obtained from the hypothesis Δk = 0.3333.
+  │
+  │ Step 1.1: target Δk
+  │ Δk_target = 0.3333 (hypothesis) 
+ │ 
+ │ Step 1.2: target k = 2.97 − Δk_target 
+ │ k_target = 2.97 − 0.3333 = 2.6367 
+ │ 
+ │ Step 1.3: K_angle of inverse formulas kraschat: 
+ │ K_angle = 22.5 + 13.0909 − k × 22.5 / 2.97 
+ │ K_angle_target = 22.5 + 13.0909 − 2.6367 × 22.5 / 2.97 
+ │ = 15.6159
+  │
+  │  Step 1.4: angle = 2.97 × K_angle_target
+  │    angle_target         = 2.97 × 15.6159
+  │                        = 46.3792°
+  │
+  │  Step 1.5: miss_pred = |RISK| / tan(target_angle)
+  │    tan(target_angle)    = 1.049341
+  │    miss_pred (Δk-var.) = 6.8182 / 1.049341
+  │                        = 6.4976 min
+  │
+  │  ── ADDITION: scale ideal Δk = 3/8 = 0.3750 ──
+  │
+  │  It follows from the ratio of the system’s quanta, NOT from π and φ:
+  │    Δk = 0.0909 / 0.2424 = (3/33) / (8/33) = 3/8 = 0.3750
+  │    It does not depend on the choice of base 33 — it remains 3/8
+  │    at any scale. π and φ float, 3/8 is the foundation.
+  │
+  │  Step D1: Δk_target = 3/8
+  │    Δk_target            = 0.3750
+  │
+  │  Step D2: k_target = 2.97 − 3/8
+  │ k_target = 2.97 − 0.3750 = 2.5950
+│
+│ Step D3: K_angle = 22.5 + 13.0909 - k × 22.5 / 2.97
+│ K_angle_target = 22.5 + 13.0909 − 2.5950 × 22.5 / 2.97
+│ = 15.9318
+│
+│ Step D4: angle = 2.97 × K_angle
+│ angle_target = 2.97 × 15.9318
+│ = 47.3175°
+  │
+  │ Step D5: miss_pred = |RISK| / tan(angle)
+  │    tan(target_angle)    = 1.084353
+  │    miss_pred (3/8-var.)= 6.8182 / 1.084353
+  │                        = 6.2878 min
+  │  Δ from fact            = -0.0122 min
+  │  ✅ More accurate than Δk = 0.3333 and than 8φ−4π.
+  └──────────────────────────────────────────────────────────
+
+  ┌─ OPTION 2: based on the actual angle (verification) ─────────────
+  │
+  │  Formula: miss = |RISK| / tan(actual_angle)
+  │  This is NOT a prediction, but a self‑consistency check:
+  │  the angle has already been calculated from the miss, so a match
+  │  with the actual miss is tautological.
+  │
+  │ Step 2.1: K_angle = angle_actual / 2.97
+  │    K_angle_actual         = 47.2621 / 2.97
+  │                        = 15.9132
+  │
+  │ Step 2.2: miss_pred = |RISK| / tan(angle_actual)
+  │    tan(angle_actual)       = 1.082251
+  │    miss_pred (angle-var.)= 6.8182 / 1.082251
+  │                        = 6.3000 min
+  └──────────────────────────────────────────────────────────
+
+  ┌─ OPTION 3: via grey ratio (REAL PREDICTION) ──
+  │
+  │  Uses ONLY system constants (base, |RISK|,
+  │  tan(1°), 11/10, φ, 8). Actual angle and miss are NOT used.
+  │
+  │  Step 3.1: ratio_grey = base × tan(1°) × 11 / (|RISK| × 10)
+  │    base                 = 2026.0727
+  │    |RISK|               = 6.8182
+  │    ratio_grey           = 2026.0727 × 0.017455 × 1.1 / (6.8182 × 10)
+  │                        = 5.7056
+  │
+  │  Step 3.2: angle = 8 × ratio_grey + φ
+  │    angle_pred            = 8 × 5.7056 + 1.6180
+  │                        = 47.2628°
+  │
+  │  Step 3.3: miss_pred = |RISK| / tan(angle_pred)
+  │    tan(angle_pred)       = 1.082277
+  │    miss_pred (ratio-var.)= 6.8182 / 1.082277
+  │                        = 6.2998 min
+  │
+  │ ✅ This is the prediction formula: it does not depend on the factual time.
+  └──────────────────────────────────────────────────────────
+
+  ┌─ COMPREHENSIVE COMPARISON ─────────────────────────────
+  │  miss_fact              : 6.3000 min
+  │  Δ (option 1, Δk=1/3)  : +0.1976 min
+  │ Δ (option 1b, Δk=3/8): -0.0122 min
+  │ Δ (option 2, angle): +0.0000 min
+  │ Δ (option 3, ratio): -0.0002 min
+  │
+  │ ✅ Option 2 (angle) matches the fact (this is a verification, not a prediction).
+  ✅ Option 3 (ratio) — an accurate prediction.
+  │ ✅ Option 1b (Δk = 3/8) — the most accurate (Δ = 0.0122 min).
+  │ ⚙️ Option 1 (Δk = 0.3333) differs by +0.20 min — the system did not hit the exact Δk = 0.3333.
+  └──────────────────────────────────────────────────────────
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+FORCE CASCADE:
+  operation         : Force amplification (k=0.7427)
+  correct force    : 23385.62
+  force lag         : +16502.11 (division by |Δ|)
+  Target            : 58701.56
+  Target+          : 75203.68
+
+target purity [pure]: miss=6.30, DeviationTARGET=5.73%, difference=0.57 min, ratio=0.0909 (1/11), breathing→time (k=+2.598)
+
+φ-convergence: M=0.016, ratio=456.0752, eff=414.6180 (Δφ=+412.9999, far from φ)
+  [M_ideal=4.133, angle_ideal=0.242°]
+
+
+
+==========================================================================================
+Hint: any numbers are only displayed; the system does not change. The status bar does NOT change.
+==========================================================================================
