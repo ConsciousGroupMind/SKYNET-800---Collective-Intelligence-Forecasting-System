@@ -3,7 +3,7 @@ This code predicts the exact time and price of a future price point, and can als
 
 ## "SKYNET-800 is an amplification system. Just as AI-based tools enhance the capabilities of analysts, but do not replace them, my project enhances the capabilities of security auditing. Using minimal computing resources, it allows you to identify weaknesses in random number generators (RNG) faster and more efficiently. However, the author of the code has no intention of hacking anything; on the contrary, it could be used as a vulnerability in cybersecurity and in preventing such hacks. The code will never contain any direct instructions for hacking — this is a purely legitimate project.
 
-### My project is a mathematical framework for time series forecasting and entropy analysis. Just as large language models (LLMs) can be used to write malicious code, but are created as general‑purpose tools for data analysis, SKYNET‑800 is an analytical engine. The mention of seed phrases in the documentation is a demonstration (proof‑of‑concept) of the algorithm’s computational power, not an instruction on how to use it.
+### My project is a mathematical framework for time series forecasting and entropy analysis. Just as large language models (LLMs) can be used to write malicious code, but are created as general‑purpose tools for data analysis, SKYNET‑800 is an analytical engine.
 
 The code has made the collective mind controllable and predictable - there's no need to use social media platforms like TikTok to observe or generate mass trends immediately - everything follows a simple mathematical formula.
 
