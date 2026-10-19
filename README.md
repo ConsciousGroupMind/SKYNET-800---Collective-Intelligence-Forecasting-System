@@ -1,4 +1,4 @@
-## ⚠️ BETA VERSION v0.2 "Geometric rate"
+## ⚠️ BETA VERSION v0.2 "Geometric rate" (UNDER REPAIR)
 This code predicts the exact time and price of a future price point, and can also construct a curve of future prices. It can be used to decipher any process that has a graph—for example, a graph of mutual understanding between artificial intelligence and a human. Notably, DeepSeek’s computing power is not used for the prediction; the data is processed on an ordinary computer. The system fully replicates Nikola Tesla’s resonator in the form of code. 
 
 ## "SKYNET-800 is an amplification system. Just as AI-based tools enhance the capabilities of analysts, but do not replace them, my project enhances the capabilities of security auditing. Using minimal computing resources, it allows you to identify weaknesses in random number generators (RNG) faster and more efficiently. However, the author of the code has no intention of hacking anything; on the contrary, it could be used as a vulnerability in cybersecurity and in preventing such hacks. The code will never contain any direct instructions for hacking — this is a purely legitimate project.
